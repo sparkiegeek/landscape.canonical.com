@@ -1,0 +1,16 @@
+{
+  "name": "canonical-landscape",
+  "version": "0.0.1",
+  "description": "Static Landscape ",
+  "keywords": [
+    "canonical",
+    "ubuntu",
+    "Landscape",
+    "cloud"
+  ],
+  "author": "Canonical webteam",
+  "license": "LGPL v3",
+  "dependencies": {
+    "cloud-vanilla-theme": ">=0.0.12"
+  }
+}

@@ -1,0 +1,17 @@
+.bzr/
+*.pyc
+db.sqlite3
+env/
+.sass-cache
+templates/static/css/styles.css
+*.pid
+*.css.map
+bzr-repo/
+django-error.log
+/node_modules/
+templates/docs/*
+static/docs/*
+!templates/docs/README.md
+!static/docs/README.md
+maas-docs/
+docs-env/
