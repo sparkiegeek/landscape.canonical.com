@@ -6,9 +6,11 @@ $bullet-color: $button-primary-color;
 
 @import 'base/header';
 @import 'generic/helpers';
+@import 'generic/media';
 @import 'objects/rowhero';
 
 @include cloud-vanilla-theme;
 @include landscape-header;
+@include landscape-media;
 @include landscape-vertical-alignment;
 @include landscape-rowhero;
