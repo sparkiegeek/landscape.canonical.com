@@ -1,5 +1,7 @@
 // import required files
 
 @import '../../node_modules/cloud-vanilla-theme/scss/build';
+@import 'base/header';
 
 @include cloud-vanilla-theme;
+@include landscape-header;

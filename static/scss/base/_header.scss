@@ -1,0 +1,41 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/ubuntu-maas
+/// @since        1.0.0
+////
+
+/// Landscape Header
+/// @group Landscape Header
+@mixin landscape-header {
+  .banner {
+    box-shadow: none;
+    background-color: #2C001E;
+
+    .nav-primary {
+
+      @media only screen and (min-width: $navigation-threshold) {
+        width: auto;
+        max-width: inherit;
+      }
+
+      ul li {
+        border-color: rgba($white, .2);
+
+        &:last-child {
+            border-color: rgba($white, .2);
+        }
+      }
+
+      ul li a,
+      ul li a:link,
+      ul li a:visited {
+
+        @media only screen and (min-width: 768px) {
+          &:hover {
+            background-color: #451437;
+          }
+        }
+      }
+    }
+  }
+}
