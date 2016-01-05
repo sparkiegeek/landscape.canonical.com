@@ -1,0 +1,22 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Landscaoe Row hero
+/// @group Landscaoe Row hero
+@mixin landscape-rowhero {
+  .row-hero {
+    padding: 140px 0 200px;
+    position: relative;
+    overflow-y: hidden;
+    margin-top: 0;
+    background-color: #2C001E;
+    background-image: url('https://assets.ubuntu.com/v1/9c6b89fc-backround.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: $white;
+    border-top: 1px solid rgba($white, .2);
+  }
+}

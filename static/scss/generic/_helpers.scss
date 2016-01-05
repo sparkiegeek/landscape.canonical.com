@@ -1,0 +1,19 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Landscaoe Helpers
+/// @group Landscaoe helpers
+@mixin landscape-vertical-alignment {
+  .align-vertically {
+    @media only screen and (min-width : 768px) {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+}

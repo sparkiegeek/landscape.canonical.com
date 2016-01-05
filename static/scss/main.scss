@@ -2,6 +2,10 @@
 
 @import '../../node_modules/cloud-vanilla-theme/scss/build';
 @import 'base/header';
+@import 'generic/helpers';
+@import 'objects/rowhero';
 
 @include cloud-vanilla-theme;
 @include landscape-header;
+@include landscape-vertical-alignment;
+@include landscape-rowhero;
