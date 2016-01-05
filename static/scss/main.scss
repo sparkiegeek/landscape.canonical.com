@@ -1,6 +1,9 @@
 // import required files
 
 @import '../../node_modules/cloud-vanilla-theme/scss/build';
+
+$bullet-color: $button-primary-color;
+
 @import 'base/header';
 @import 'generic/helpers';
 @import 'objects/rowhero';
