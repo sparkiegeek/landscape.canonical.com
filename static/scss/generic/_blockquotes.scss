@@ -1,0 +1,30 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Landscaoe blockquotes
+/// @group Landscaoe blockquotes
+
+/// Pull quote styling
+/// @group Blockquotes
+/// @example
+///   <blockquote class="pull-quotes">
+///     ...
+///   </blockquote>
+@mixin landscape-pull-quotes {
+  .pull-quote {
+
+    p {
+
+      span {
+        color: $button-primary-color;
+        font-weight: bold;
+        left: -5px;
+        line-height: 0;
+        position: relative;
+      }
+    }
+  }
+}

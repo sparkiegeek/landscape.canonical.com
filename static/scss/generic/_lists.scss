@@ -7,11 +7,13 @@
 /// Lists
 /// @group Lists
 @mixin landscape-lists {
-  .list-ticks--no-border {
-    @extend .list-ticks;
+  .list-ticks {
 
-    li {
-      border: none;
+    &.list-ticks--no-border {
+
+      li {
+        border: none;
+      }
     }
   }
 }

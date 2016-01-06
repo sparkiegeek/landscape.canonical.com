@@ -1,0 +1,24 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Landscape Footer
+/// @group Landscape Footer
+@mixin landscape-footer {
+  .footer {
+    background-color: $white;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px dotted rgba($black,0.2);
+
+    .footer__title {
+      color: $warm-grey;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+  }
+}

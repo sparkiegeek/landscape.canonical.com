@@ -18,5 +18,12 @@
       @extend .strip-dark;
       background-image: url('https://assets.ubuntu.com/v1/62d597f6-background-grid.png');
     }
+
+    &.try-landscape {
+      background-color: #f8f8f8;
+      background-image: url('https://assets.ubuntu.com/v1/76a34db4-landing-cta.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 }
