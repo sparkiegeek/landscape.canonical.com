@@ -7,14 +7,18 @@ $dark-aubergine: #2c001e;
 
 @import 'base/header';
 @import 'base/row';
+@import 'generic/box';
 @import 'generic/helpers';
+@import 'generic/lists';
 @import 'generic/media';
 @import 'objects/connectedlists';
 @import 'objects/rowhero';
 
 @include cloud-vanilla-theme;
+@include landscape-box;
 @include landscape-connectedlist;
 @include landscape-header;
+@include landscape-lists;
 @include landscape-media;
 @include landscape-vertical-alignment;
 @include landscape-row;

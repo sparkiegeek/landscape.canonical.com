@@ -1,0 +1,17 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Lists
+/// @group Lists
+@mixin landscape-lists {
+  .list-ticks--no-border {
+    @extend .list-ticks;
+
+    li {
+      border: none;
+    }
+  }
+}
