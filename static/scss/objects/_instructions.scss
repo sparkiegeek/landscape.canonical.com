@@ -11,14 +11,14 @@
     padding: 0 10px;
     position: relative;
     width: 100%;
-    border-top: 1px dotted #DDD;
+    border-top: 1px dotted #888;
 
     @media only screen and (min-width : $breakpoint-medium) {
       padding: 0 20px;
     }
 
     &:last-of-type {
-      border-bottom: 1px dotted #DDD;
+      border-bottom: 1px dotted #888;
     }
 
     .instruction__bullet,
@@ -46,7 +46,7 @@
         width: 200%;
         background-color: $white;
         z-index: -1;
-        border-right: 1px dotted #DDD;
+        border-right: 1px dotted #888;
       }
     }
 
@@ -90,7 +90,7 @@
         width: 200%;
         background-color: $white;
         z-index: 0;
-        border-right: 1px dotted #DDD;
+        border-right: 1px dotted #888;
       }
     }
 

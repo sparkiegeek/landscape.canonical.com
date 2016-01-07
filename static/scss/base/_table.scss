@@ -1,0 +1,48 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// table element styles
+/// @group table
+@mixin landscape-table {
+  .table--fullwidth {
+    margin: 0;
+
+    th,
+    td {
+      background-color: $transparent;
+      border: 0;
+      padding: 25px 0;
+    }
+
+    th {
+      font-size: 23px;
+      font-weight: 300;
+    }
+
+    tr {
+
+      &:after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: calc(100vw + 50%);
+        height: 1px;
+        left: -50%;
+        border-bottom: 1px dotted #888;
+      }
+    }
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      width: calc(100vw + 50%);
+      height: 1px;
+      left: -50%;
+      border-bottom: 1px dotted #888;
+    }
+  }
+}

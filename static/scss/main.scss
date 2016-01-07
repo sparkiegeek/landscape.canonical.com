@@ -7,6 +7,7 @@ $dark-aubergine: #2c001e;
 
 @import 'base/footer';
 @import 'base/header';
+@import 'base/table';
 @import 'base/row';
 @import 'generic/blockquotes';
 @import 'generic/box';
@@ -27,5 +28,6 @@ $dark-aubergine: #2c001e;
 @include landscape-lists;
 @include landscape-media;
 @include landscape-vertical-alignment;
+@include landscape-table;
 @include landscape-row;
 @include landscape-rowhero;
