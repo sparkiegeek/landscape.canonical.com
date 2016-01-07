@@ -14,6 +14,7 @@ $dark-aubergine: #2c001e;
 @import 'generic/lists';
 @import 'generic/media';
 @import 'objects/connectedlists';
+@import 'objects/instructions';
 @import 'objects/rowhero';
 
 @include cloud-vanilla-theme;
@@ -22,6 +23,7 @@ $dark-aubergine: #2c001e;
 @include landscape-connectedlist;
 @include landscape-footer;
 @include landscape-header;
+@include landscape-instructions;
 @include landscape-lists;
 @include landscape-media;
 @include landscape-vertical-alignment;
