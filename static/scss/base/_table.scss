@@ -31,7 +31,7 @@
         width: calc(100vw + 50%);
         height: 1px;
         left: -50%;
-        border-bottom: 1px dotted #888;
+        border-bottom: 1px dotted rgba(136, 136, 136, 0.5);
       }
     }
 
@@ -42,7 +42,7 @@
       width: calc(100vw + 50%);
       height: 1px;
       left: -50%;
-      border-bottom: 1px dotted #888;
+      border-bottom: 1px dotted rgba(136, 136, 136, 0.5);
     }
   }
 }
