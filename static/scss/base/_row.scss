@@ -29,5 +29,15 @@
       background-repeat: no-repeat;
       background-position: center;
     }
+
+    &.row--full-bleed {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      img {
+        max-width: inherit;
+        margin: 0;
+      }
+    }
   }
 }
