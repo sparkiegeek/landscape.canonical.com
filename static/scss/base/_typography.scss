@@ -1,0 +1,26 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+@mixin landscape-typography {
+  .title--large {
+    font-size: 250%;
+  }
+
+  .title--under-score {
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 50px;
+      background-color: $button-primary-color;
+      left: 50%;
+      margin-left: -25px;
+      margin-top: 8px;
+    }
+  }
+}

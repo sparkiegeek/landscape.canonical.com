@@ -9,12 +9,16 @@
 @mixin landscape-row {
   .row {
 
-    &.strip-dark {
+    &.strip-canonical {
       background: $dark-aubergine;
       color: $white;
+
+      .pull-quote p {
+        color: $white;
+      }
     }
 
-    &.strip-dark--grid {
+    &.strip-canonical--grid {
       @extend .strip-dark;
       background-image: url('https://assets.ubuntu.com/v1/62d597f6-background-grid.png');
     }
