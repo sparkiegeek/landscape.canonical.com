@@ -35,3 +35,7 @@ $dark-aubergine: #2c001e;
 @include landscape-typography;
 @include landscape-row;
 @include landscape-rowhero;
+
+body {
+  overflow-x: hidden;
+}
