@@ -11,7 +11,7 @@
     padding: 0 10px;
     position: relative;
     width: 100%;
-    border-top: 1px dotted #888;
+    border-top: 1px dotted rgba(0, 0, 0, 0.2);
 
     @media only screen and (min-width : $breakpoint-medium) {
       padding: 0 20px;
@@ -42,7 +42,7 @@
         width: 200%;
         background-color: $white;
         z-index: -1;
-        border-right: 1px dotted #888;
+        border-right: 1px dotted rgba(0, 0, 0, 0.2);
       }
     }
 
@@ -86,7 +86,7 @@
         width: 200%;
         background-color: $white;
         z-index: 0;
-        border-right: 1px dotted #888;
+        border-right: 1px dotted rgba(0, 0, 0, 0.2);
       }
     }
 
