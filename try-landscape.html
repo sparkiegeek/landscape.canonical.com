@@ -108,15 +108,15 @@
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th>Hosted</th>
                                         <th>Dedicated</th>
+                                        <th>Hosted</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="align-left">Pricing</td>
-                                        <td>Free for 30 days</td>
                                         <td>Free up to 10 machines</td>
+                                        <td>Free for 30 days</td>
                                     </tr>
                                     <tr>
                                         <td class="align-left">Inventory management</td>
@@ -150,89 +150,101 @@
                                     </tr>
                                     <tr>
                                         <td class="align-left">System monitoring</td>
-                                        <td><img src="https://assets.ubuntu.com/v1/90067499-green-tick.svg" alt="Green tick" class="no-margin-bottom" /></td>
                                         <td></td>
+                                        <td><img src="https://assets.ubuntu.com/v1/90067499-green-tick.svg" alt="Green tick" class="no-margin-bottom" /></td>
                                     </tr>
                                     <tr>
                                         <td class="align-left">Custom software repositories</td>
-                                        <td></td>
                                         <td><img src="https://assets.ubuntu.com/v1/90067499-green-tick.svg" alt="Green tick" class="no-margin-bottom" /></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td class="align-left">Access to OpenStack Autopilot</td>
-                                        <td></td>
                                         <td><img src="https://assets.ubuntu.com/v1/90067499-green-tick.svg" alt="Green tick" class="no-margin-bottom" /></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-medium align-left">Get started</td>
+                                        <td class="font-medium"><a class="tab" href="#dedicated">Set up your dedicated Landscape server</a></td>
+                                        <td class="font-medium"><a class="tab" href="#hosted">Try Landscape hosted</a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </section>
-                <section class="row tabs strip-white">
-                    <div class="inner-wrapper">
-                        <h3 class="tabs__title">Get started</h3>
-                        <a href="#" class="tabs__item is-active"><span class="align-vertically">Set up your dedicated Landscape server</span></a>
-                        <a href="#" class="tabs__item"><span class="align-vertically">Try Landscape hosted</span></a>
-                    </div>
-                </section>
-                <section class="row clearfix instruction">
-                    <div class="inner-wrapper">
-                        <div class="five-col instruction__bullet">
-                            <div class="one-col">
-                                <span class="instruction__step">1</span>
+                <div class="tab-target" id="dedicated">
+                    <section class="row clearfix instruction">
+                        <div class="inner-wrapper">
+                            <div class="five-col instruction__bullet">
+                                <div class="one-col">
+                                    <span class="instruction__step">1</span>
+                                </div>
+                                <div class="four-col last-col">
+                                    <h3 class="instruction__title">Add Landscape's repository</h3>
+                                </div>
                             </div>
-                            <div class="four-col last-col">
-                                <h3 class="instruction__title">Add Landscape's repository</h3>
-                            </div>
-                        </div>
-                        <div class="seven-col last-col instruction__details">
-                            <p class="command-line">
-                                <input class="command-line__input" value="sudo add-apt-repository ppa: landscape/15.11" readonly="readonly">
-                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="row clearfix instruction">
-                    <div class="inner-wrapper">
-                        <div class="five-col instruction__bullet">
-                            <div class="one-col">
-                                <span class="instruction__step">2</span>
-                            </div>
-                            <div class="four-col last-col">
-                                <h3 class="instruction__title">Update package list</h3>
+                            <div class="seven-col last-col instruction__details">
+                                <p class="command-line">
+                                    <input class="command-line__input" value="sudo add-apt-repository ppa: landscape/15.11" readonly="readonly">
+                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                                </p>
                             </div>
                         </div>
-                        <div class="seven-col last-col instruction__details">
-                            <p class="command-line">
-                                <input class="command-line__input" value="sudo apt update" readonly="readonly">
-                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                            </p>
-                            <p class="command-line">
-                                <input class="command-line__input" value="sudo apt install" readonly="readonly">
-                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="row clearfix instruction no-border">
-                    <div class="inner-wrapper">
-                        <div class="five-col instruction__bullet">
-                            <div class="one-col">
-                                <span class="instruction__step">3</span>
+                    </section>
+                    <section class="row clearfix instruction">
+                        <div class="inner-wrapper">
+                            <div class="five-col instruction__bullet">
+                                <div class="one-col">
+                                    <span class="instruction__step">2</span>
+                                </div>
+                                <div class="four-col last-col">
+                                    <h3 class="instruction__title">Update package list</h3>
+                                </div>
                             </div>
-                            <div class="four-col last-col">
-                                <h3 class="instruction__title">Install Landscape</h3>
+                            <div class="seven-col last-col instruction__details">
+                                <p class="command-line">
+                                    <input class="command-line__input" value="sudo apt update" readonly="readonly">
+                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                                </p>
+                                <p class="command-line">
+                                    <input class="command-line__input" value="sudo apt install" readonly="readonly">
+                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                                </p>
                             </div>
                         </div>
-                        <div class="seven-col last-col instruction__details">
-                            <p class="command-line">
-                                <input class="command-line__input" value="landscape-server-quickstart" readonly="readonly">
-                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                            </p>
+                    </section>
+                    <section class="row clearfix instruction no-border">
+                        <div class="inner-wrapper">
+                            <div class="five-col instruction__bullet">
+                                <div class="one-col">
+                                    <span class="instruction__step">3</span>
+                                </div>
+                                <div class="four-col last-col">
+                                    <h3 class="instruction__title">Install Landscape</h3>
+                                </div>
+                            </div>
+                            <div class="seven-col last-col instruction__details">
+                                <p class="command-line">
+                                    <input class="command-line__input" value="landscape-server-quickstart" readonly="readonly">
+                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
+                <div class="tab-target" id="hosted">
+                    <section class="row">
+                        <div class="inner-wrapper">
+                            <div class="ten-col push-one align-center">
+                                <h3>Register and get up and running with your Landscape hosted account now</h3>
+                            </div>
+                            <div class="ten-col push-one align-center margin-bottom">
+                                <p><a href="https://login.ubuntu.com/5N3gJxHDcJeuxrc2/+decide" class="button--primary">Try Landscape free for 30 days</a></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
         <footer class="footer clearfix">
@@ -286,4 +298,6 @@
             </div>
         </footer>
     </body>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.tabs.js"></script>
 </html>
