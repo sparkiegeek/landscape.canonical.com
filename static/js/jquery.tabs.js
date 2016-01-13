@@ -10,11 +10,11 @@ jQuery(document).ready(function($) {
         tabTarget = $('.tab-target');
 
     // Set the first tab to be active
-    tab.first().addClass('js-is-active');
+    tab.eq(1).addClass('js-is-active');
 
     // Set the first tab content to be active
     tabTarget.hide();
-    tabTarget.first().show();
+    tabTarget.eq(1).show();
 
     tab.on('click', function() {
         tab.removeClass('js-is-active');
