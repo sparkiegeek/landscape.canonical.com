@@ -29,9 +29,11 @@
       background-repeat: no-repeat;
       background-position: center;
       padding-top: 40px;
+      padding-bottom: 40px;
 
       @media only screen and (min-width: $navigation-threshold) {
         padding-top: 60px;
+        padding-bottom: 60px;
       }
     }
 
