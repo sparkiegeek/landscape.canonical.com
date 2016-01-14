@@ -36,12 +36,15 @@
     }
 
     &.row--full-bleed {
-      padding-top: 0;
-      padding-bottom: 0;
 
-      img {
-        max-width: inherit;
-        margin: 0;
+      @media only screen and (min-width: $navigation-threshold) {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        img {
+          max-width: inherit;
+          margin: 0;
+        }
       }
     }
   }
