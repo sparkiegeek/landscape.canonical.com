@@ -18,8 +18,12 @@
     }
 
     th {
-      font-size: 23px;
       font-weight: 300;
+      font-size: 18px;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        font-size: 23px;
+      }
     }
 
     tr {
