@@ -28,15 +28,25 @@
       background-image: url('https://assets.ubuntu.com/v1/76a34db4-landing-cta.png');
       background-repeat: no-repeat;
       background-position: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
     }
 
     &.row--full-bleed {
-      padding-top: 0;
-      padding-bottom: 0;
 
-      img {
-        max-width: inherit;
-        margin: 0;
+      @media only screen and (min-width: $navigation-threshold) {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        img {
+          max-width: inherit;
+          margin: 0;
+        }
       }
     }
   }
