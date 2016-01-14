@@ -8,7 +8,6 @@
 /// @group Landscaoe Row hero
 @mixin landscape-rowhero {
   .row-hero {
-    padding: 125px 0 75px;
     position: relative;
     overflow-y: hidden;
     margin-top: 0;
@@ -18,7 +17,12 @@
     background-repeat: no-repeat;
     color: $white;
     border-top: 1px solid rgba($white, .2);
-    min-height: 600px;
+    padding: 60px 10px;
+
+    @media only screen and (min-width: $navigation-threshold) {
+      padding: 125px 20px 75px;
+      min-height: 600px;
+    }
 
     .box {
       padding: 40px 30px;
