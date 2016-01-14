@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
         tabTarget.hide();
 
-        var activeTab = $(this).attr('href');
+        var activeTab = $(this).find('.tab__link').attr('href');
         $(activeTab).show();
         return false;
     });

@@ -6,24 +6,21 @@
 
 @mixin landscape-tabs {
   .tab {
-    color: $cool-grey !important;
-    position: relative;
+
     &.js-is-active {
-      color: $button-primary-color !important;
+      border-bottom: 4px solid $button-primary-color;
 
-      &:hover {
-        text-decoration: none;
-      }
+      .tab__link {
+        color: $button-primary-color !important;
 
-      &:after {
-        content: '';
-        height: 3px;
-        width: 100%;
-        background-color: $button-primary-color;
-        display: block;
-        position: absolute;
-        bottom: -25px;
+        &:hover {
+          text-decoration: none;
+        }
       }
+    }
+
+    .tab__link {
+      color: $cool-grey;
     }
   }
 
