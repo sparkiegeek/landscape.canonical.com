@@ -1,3 +1,5 @@
+// scss-lint:disable PlaceholderInExtend
+
 ////
 /// @author       Web Team at Canonical Ltd
 /// @link         https://github.com/ubuntudesign/landscape.canonical.com
@@ -20,12 +22,12 @@
 
     &.strip-canonical--grid {
       @extend .strip-dark;
-      background-image: url('https://assets.ubuntu.com/v1/62d597f6-background-grid.png');
+      background-image: url('#{$asset-server-path}v1/62d597f6-background-grid.png');
     }
 
     &.try-landscape {
-      background-color: #f8f8f8;
-      background-image: url('https://assets.ubuntu.com/v1/76a34db4-landing-cta.png');
+      background-color: adjust-hue(saturate(darken($white, 3), 15), 52);
+      background-image: url('#{$asset-server-path}v1/76a34db4-landing-cta.png');
       background-repeat: no-repeat;
       background-position: center;
       padding-top: 40px;
@@ -51,3 +53,4 @@
     }
   }
 }
+// scss-lint:disable PlaceholderInExtend

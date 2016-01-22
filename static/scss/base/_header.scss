@@ -1,3 +1,5 @@
+// scss-lint:disable NestingDepth
+
 ////
 /// @author       Web Team at Canonical Ltd
 /// @link         https://github.com/ubuntudesign/landscape.canonical.com
@@ -8,8 +10,8 @@
 /// @group Landscape Header
 @mixin landscape-header {
   .banner {
-    box-shadow: none;
-    background-color: #2C001E;
+    box-shadow: 0;
+    background-color: $dark-aubergine;
 
     .logo {
 
@@ -31,7 +33,7 @@
         li {
           border-color: rgba($white, .2);
           width: 100%;
-          border-bottom: 1px solid #ccc;
+          border-bottom: 1px solid $silver;
 
           @media only screen and (min-width: 768px) {
             width: auto;
@@ -65,3 +67,4 @@
     }
   }
 }
+// scss-lint:enable NestingDepth
