@@ -28,7 +28,7 @@
       }
 
       ul {
-        border-top: none;
+        border-top: 0;
 
         li {
           border-color: rgba($white, .2);
@@ -37,11 +37,11 @@
 
           @media only screen and (min-width: 768px) {
             width: auto;
-            border-bottom: none;
+            border-bottom: 0;
           }
 
           &:last-child {
-              border-color: rgba($white, .2);
+            border-color: rgba($white, .2);
           }
         }
       }
@@ -52,7 +52,7 @@
 
         @media only screen and (min-width: 768px) {
           &:hover {
-            background-color: #451437;
+            background-color: adjust-hue(desaturate(lighten($dark-aubergine, 10), 62), 0);
           }
         }
       }
