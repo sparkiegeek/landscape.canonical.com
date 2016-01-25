@@ -65,8 +65,7 @@
     "email": "webteam@canonical.com"
   },
   "scripts": {
-    "clean": "rm -r build; rm -r node_modules",
-    "prepublish": "./.install_dependencies.sh"
+    "clean": "rm -r build; rm -r node_modules"
   },
-  "version": "0.0.6"
+  "version": "0.0.1"
 }
