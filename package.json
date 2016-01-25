@@ -31,7 +31,7 @@
     }
   ],
   "description": "Landscape static templates",
-  "homepage": "landscape.canonica.com",
+  "homepage": "http://landscape.canonical.com",
   "keywords": [
     "ubuntu",
     "vanilla",
@@ -39,20 +39,6 @@
     "landscape",
     "cloud"
   ],
-  "license": "LGPL-3.0",
-  "name": "landscape.canonical.com",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ubuntudesign/landscape.canonical.com.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ubuntudesign/landscape.canonical.com/issues",
-    "email": "webteam@canonical.com"
-  },
-  "scripts": {
-    "clean": "rm -r build; rm -r node_modules",
-    "prepublish": "./.install_dependencies.sh"
-  },
   "devDependencies": {
     "gulp": "3.8.11",
     "gulp-autoprefixer": "2.1.0",
@@ -67,5 +53,20 @@
   },
   "dependencies": {
     "cloud-vanilla-theme": ">=0.0.12"
-  }
+  },
+  "license": "LGPL-3.0",
+  "name": "landscape.canonical.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubuntudesign/landscape.canonical.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ubuntudesign/landscape.canonical.com/issues",
+    "email": "webteam@canonical.com"
+  },
+  "scripts": {
+    "clean": "rm -r build; rm -r node_modules",
+    "prepublish": "./.install_dependencies.sh"
+  },
+  "version": "0.0.6"
 }
