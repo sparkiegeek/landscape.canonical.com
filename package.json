@@ -1,30 +1,10 @@
 {
   "author": {
-    "name": "Canonical Webteam",
+    "name": "Landscape Website",
     "email": "webteam@canonical.com",
-    "url": "http://design.canonical.com/team"
+    "url": "http://landscape.canonical.com"
   },
   "contributors": [
-    {
-      "name": "Anthony Dillon",
-      "email": "anthony.dillon@canonical.com"
-    },
-    {
-      "name": "Graham Bancroft",
-      "email": "graham.bancroft@canonical.com"
-    },
-    {
-      "name": "Tristram Oaten",
-      "email": "tristram.oaten@canonical.com"
-    },
-    {
-      "name": "Robin Winslow",
-      "email": "robin.winslow@canonical.com"
-    },
-    {
-      "name": "Karl Williams",
-      "email": "karl.williams@canonical.com"
-    },
     {
       "name": "Richard McCartney",
       "email": "richard.mccartney@canonical.com"
@@ -32,6 +12,22 @@
     {
       "name": "Peter Mahnke",
       "email": "peter.mahnke@canonical.com"
+    },
+    {
+      "name": "Carla Berkers",
+      "email": "Carla.berkers@canonical.com"
+    },
+    {
+      "name": "Peter Mahnke",
+      "email": "peter.mahnke@canonical.com"
+    },
+    {
+      "name": "Livia Thimotheo",
+      "email": "livia.thimotheo@canonical.com"
+    },
+    {
+      "name": "Inayaili de Leon",
+      "email": "inayaili.de.leon@canonical.com"
     }
   ],
   "description": "Landscape static templates",
