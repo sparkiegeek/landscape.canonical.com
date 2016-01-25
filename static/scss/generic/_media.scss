@@ -14,14 +14,14 @@
   }
 
   .image--shadow {
-    box-shadow: 0 5px 30px 3px rgba(102,102,102,.08);
+    box-shadow: 0 5px 30px 3px rgba(102, 102, 102, .08);
     border-radius: 3px;
-    border: 1px solid rgba(54,54,54,.09);
+    border: 1px solid rgba(54, 54, 54, .09);
   }
 
   .image--shadow-left {
-    box-shadow: -5px 0px 30px 3px rgba(102,102,102,.08);
-    border-left: 1px solid rgba(54,54,54,.09);
+    box-shadow: -5px 0 30px 3px rgba(102, 102, 102, .08);
+    border-left: 1px solid rgba(54, 54, 54, .09);
   }
 
   .inline-logos {

@@ -11,8 +11,6 @@
     @media only screen and (min-width : 768px) {
       position: absolute;
       top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
       transform: translateY(-50%);
     }
   }
@@ -34,6 +32,6 @@
   }
 
   .border-bottom--dotted {
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dotted rgba(0, 0, 0, .2);
   }
 }
