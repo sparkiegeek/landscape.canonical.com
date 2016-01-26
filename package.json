@@ -1,16 +1,68 @@
 {
-  "name": "canonical-landscape",
-  "version": "0.0.1",
-  "description": "Static Landscape ",
+  "author": {
+    "name": "Landscape Website",
+    "email": "webteam@canonical.com",
+    "url": "http://landscape.canonical.com"
+  },
+  "contributors": [
+    {
+      "name": "Richard McCartney",
+      "email": "richard.mccartney@canonical.com"
+    },
+    {
+      "name": "Peter Mahnke",
+      "email": "peter.mahnke@canonical.com"
+    },
+    {
+      "name": "Carla Berkers",
+      "email": "Carla.berkers@canonical.com"
+    },
+    {
+      "name": "Livia Thimotheo",
+      "email": "livia.thimotheo@canonical.com"
+    },
+    {
+      "name": "Inayaili de Leon",
+      "email": "inayaili.de.leon@canonical.com"
+    }
+  ],
+  "description": "Landscape static templates",
+  "homepage": "http://landscape.canonical.com",
   "keywords": [
-    "canonical",
     "ubuntu",
-    "Landscape",
+    "vanilla",
+    "framework",
+    "landscape",
     "cloud"
   ],
-  "author": "Canonical webteam",
-  "license": "LGPL v3",
+  "devDependencies": {
+    "gulp": "3.9",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-cache": "0.2.8",
+    "gulp-minify-css": "1.0.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-notify": "2.2.0",
+    "gulp-rename": "1.2.0",
+    "gulp-sass": "2.1.1",
+    "gulp-scss-lint": "0.1.10",
+    "sassdoc": "2.1.7",
+    "gulp-util": "3.0.4"
+  },
   "dependencies": {
     "cloud-vanilla-theme": ">=0.0.12"
-  }
+  },
+  "license": "LGPL-3.0",
+  "name": "landscape.canonical.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubuntudesign/landscape.canonical.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ubuntudesign/landscape.canonical.com/issues",
+    "email": "webteam@canonical.com"
+  },
+  "scripts": {
+    "clean": "rm -r build; rm -r node_modules"
+  },
+  "version": "0.0.1"
 }
