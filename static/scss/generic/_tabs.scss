@@ -1,3 +1,5 @@
+// scss-lint:disable NestingDepth
+
 ////
 /// @author       Web Team at Canonical Ltd
 /// @link         https://github.com/ubuntudesign/landscape.canonical.com
@@ -11,7 +13,7 @@
       border-bottom: 4px solid $button-primary-color;
 
       .tab__link {
-        color: $button-primary-color !important;
+        color: $button-primary-color;
 
         &:hover {
           text-decoration: none;
@@ -28,3 +30,4 @@
     display: none;
   }
 }
+// scss-lint:enable NestingDepth

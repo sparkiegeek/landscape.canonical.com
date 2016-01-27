@@ -12,7 +12,7 @@
     padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
-    border-top: 1px dotted rgba($black,0.2);
+    border-top: 1px dotted rgba($black, .2);
 
     .footer__title {
       color: $warm-grey;
@@ -22,7 +22,7 @@
     }
 
     .footer__link {
-      color: #333;
+      color: $cool-grey;
     }
 
     .list-contacts {

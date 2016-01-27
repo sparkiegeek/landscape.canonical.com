@@ -4,6 +4,8 @@
 
 $bullet-color: $button-primary-color;
 $dark-aubergine: #2c001e;
+$stone-grey: #aea79f;
+$asset-server-path: 'https://assets.ubuntu.com/';
 
 @import 'base/footer';
 @import 'base/header';
@@ -16,14 +18,12 @@ $dark-aubergine: #2c001e;
 @import 'generic/lists';
 @import 'generic/media';
 @import 'generic/tabs';
-@import 'objects/connectedlists';
 @import 'objects/instructions';
 @import 'objects/rowhero';
 
 @include cloud-vanilla-theme;
 @include landscape-box;
 @include landscape-pull-quotes;
-@include landscape-connectedlist;
 @include landscape-footer;
 @include landscape-header;
 @include landscape-instructions;
