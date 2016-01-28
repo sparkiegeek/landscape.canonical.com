@@ -5188,23 +5188,32 @@ pre {
       font-size: 1em;
       font-family: Ubuntu Mono;
       font-weight: 300;
-      padding: .7em 1em;
+      padding: .7em 1em 53px;
       color: #fff;
       width: 100%; }
+      @media only screen and (min-width: 768px) {
+        .instruction .command-line .command-line__input {
+          padding-bottom: .7em; } }
     .instruction .command-line .command-line__copy-button {
       transition: background-color .2s;
       position: absolute;
       right: 0;
-      top: 0;
-      width: 50px;
       border: 0;
+      top: 42px;
+      width: 100%;
       height: 100%;
+      max-height: 42px;
       display: block;
       text-indent: -9999px;
       background-image: url("https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #fff; }
+      @media only screen and (min-width: 768px) {
+        .instruction .command-line .command-line__copy-button {
+          width: 50px;
+          right: 0;
+          top: 0; } }
 
 @media only screen and (min-width: 768px) {
   .list-ticks.list-ticks--large-text li {
