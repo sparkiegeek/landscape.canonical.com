@@ -13,15 +13,15 @@
     margin-top: 0;
     background-color: $dark-aubergine;
     background-image: url('#{$asset-server-path}v1/d9039397-backround.png');
-    background-position: center bottom;
+    background-position: center bottom -80px;
     background-repeat: no-repeat;
     color: $white;
     border-top: 1px solid rgba($white, .2);
     padding: 60px 10px;
 
     @media only screen and (min-width: $navigation-threshold) {
-      padding: 125px 20px 75px;
-      min-height: 600px;
+      padding: 105px 20px 55px;
+      min-height: 500px;
     }
 
     .box {
