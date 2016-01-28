@@ -5347,6 +5347,10 @@ h4 img {
   display: inline;
   margin: 0; }
 
+.row.strip-dark a, .row.strip-canonical--grid a {
+  color: #fff;
+  text-decoration: underline; }
+
 .row.strip-canonical {
   background: #2c001e;
   color: #fff; }
