@@ -43,7 +43,7 @@
         @media only screen and (min-width: $navigation-threshold) {
           background: 0;
         }
-        
+
         + .footer__second-nav {
           display: block;
         }
@@ -68,6 +68,15 @@
 
       li {
         margin-bottom: 5px;
+      }
+    }
+
+    .footer__legal {
+      padding: 10px;
+      margin: 0;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        padding: 0;
       }
     }
   }
