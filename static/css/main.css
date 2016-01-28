@@ -1,5 +1,9 @@
 @charset "UTF-8";
-button, input[type='button'], input[type='reset'], input[type='submit'], .button--primary, .button--secondary {
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button--primary, .button--secondary {
   font-smoothing: subpixel-antialiased;
   font-size: 1em;
   display: inline-block;
@@ -14,10 +18,18 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   outline: none;
   font-weight: 300;
   cursor: pointer; }
-  button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover, .button--primary:hover, .button--secondary:hover {
+  button:hover,
+  input[type='button']:hover,
+  input[type='reset']:hover,
+  input[type='submit']:hover,
+  .button--primary:hover, .button--secondary:hover {
     text-decoration: none; }
   @media only screen and (min-width: 768px) {
-    button, input[type='button'], input[type='reset'], input[type='submit'], .button--primary, .button--secondary {
+    button,
+    input[type='button'],
+    input[type='reset'],
+    input[type='submit'],
+    .button--primary, .button--secondary {
       width: auto; } }
 
 .clearfix {
@@ -39,7 +51,7 @@ input[type='text'], input[type='number'], input[type='search'], input[type='pass
   font-size: 16px;
   margin: 0;
   outline: none;
-  padding: .69565em .86957em;
+  padding: .6956522em .869565em;
   vertical-align: baseline;
   font-weight: 300; }
   input[type='text']:active, input[type='number']:active, input[type='search']:active, input[type='password']:active, input[type='email']:active, input[type='url']:active, input[type='tel']:active, textarea:active, input[type='text']:focus, input[type='number']:focus, input[type='search']:focus, input[type='password']:focus, input[type='email']:focus, input[type='url']:focus, input[type='tel']:focus, textarea:focus {
@@ -70,7 +82,8 @@ input[type='checkbox'], input[type='radio'] {
   margin: 0 auto;
   max-width: 1030px; }
 
-[class*='-col'].last-col, [class*='-col'] [class*='-col'].last-col {
+[class*='-col'].last-col,
+[class*='-col'] [class*='-col'].last-col {
   margin-right: 0; }
 
 .one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .ten-col, .eleven-col, .twelve-col {
@@ -102,16 +115,101 @@ input[type='checkbox'], input[type='radio'] {
   background-position: 0 1em;
   padding-left: 25px; }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   border: 0;
   margin: 0;
   padding: 0;
   vertical-align: baseline; }
 
-article, aside, details, figcaption, figure, footer, header, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
   display: block; }
 
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block; }
 
 audio:not([controls]) {
@@ -127,7 +225,8 @@ html {
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
 legend {
@@ -136,7 +235,8 @@ legend {
 figure {
   margin: 0; }
 
-abbr, acronym {
+abbr,
+acronym {
   cursor: help; }
 
 .link-arrow:after {
@@ -145,7 +245,9 @@ abbr, acronym {
 nav ul li h2 a:after {
   content: '\0000a0›'; }
 
-nav ul li a:after, .carousel ul li a:after, ul li p a:after {
+nav ul li a:after,
+.carousel ul li a:after,
+ul li p a:after {
   content: ''; }
 
 svg:not(:root) {
@@ -197,30 +299,34 @@ ins {
   text-transform: uppercase; }
 
 @media only screen and (min-width: 768px) {
-  .touch-border, .touch-bottom {
+  .touch-border,
+  .touch-bottom {
     float: left;
     margin-bottom: -20px; } }
 
 @media only screen and (min-width: 1030px) {
-  .touch-border, .touch-bottom {
+  .touch-border,
+  .touch-bottom {
     float: left;
     margin-bottom: -40px; } }
 
-.accessibility-aid, .off-left {
+.accessibility-aid,
+.off-left {
   position: absolute;
   left: -999em; }
 
 .external {
   background-size: .7em .7em;
   padding-right: .9em;
-  background-image: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.svg');
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.svg");
   background-position: 100% top;
   background-repeat: no-repeat; }
 
 .no-svg .external {
-  background-image: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.png'); }
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.png"); }
 
-.text-center, .align-center {
+.text-center,
+.align-center {
   text-align: center; }
 
 .no-margin-bottom {
@@ -258,11 +364,13 @@ ins {
     margin-bottom: -60px; } }
 
 @media only screen and (max-width: 767px) {
-  .priority-0, .not-for-small {
+  .priority-0,
+  .not-for-small {
     display: none; } }
 
 @media only screen and (min-width: 768px) {
-  .for-mobile, .for-small {
+  .for-mobile,
+  .for-small {
     display: none; } }
 
 .video-container {
@@ -291,7 +399,8 @@ ins {
   margin-left: -40px; }
 
 @media only screen and (min-width: 1030px) {
-  .for-tablet, .for-medium {
+  .for-tablet,
+  .for-medium {
     display: none; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1030px) {
@@ -340,7 +449,7 @@ blockquote {
       text-indent: -.7em; }
       .pull-quote p span {
         top: 5px;
-        font-size: 1.3913em; }
+        font-size: 1.391304348em; }
       .pull-quote p cite {
         margin-left: 0;
         text-indent: 0; } }
@@ -387,7 +496,7 @@ blockquote {
           text-indent: -.4em; }
         .row-quote blockquote span {
           top: 5px;
-          font-size: 1.3913em; }
+          font-size: 1.391304348em; }
         .row-quote blockquote cite {
           margin-left: 0;
           text-indent: 0; } }
@@ -398,10 +507,18 @@ blockquote {
       .row-quote blockquote p span {
         top: 10px; } }
 
-button, input[type='button'], input[type='reset'], input[type='submit'], .button--primary {
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button--primary {
   color: #fff;
   background: #dd4814; }
-  button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover, .button--primary:hover {
+  button:hover,
+  input[type='button']:hover,
+  input[type='reset']:hover,
+  input[type='submit']:hover,
+  .button--primary:hover {
     background: #c03f11; }
 
 .button--secondary {
@@ -415,6 +532,7 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   .nav-secondary {
     border: 1px solid #d2d2d2;
     border-top: 0; } }
+
 .nav-secondary .breadcrumb {
   box-sizing: border-box;
   margin-bottom: 0;
@@ -453,18 +571,23 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
         .nav-secondary .breadcrumb li a {
           font-size: .875em; } }
     @media only screen and (min-width: 768px) {
-      .nav-secondary .breadcrumb li .breadcrumb-link, .nav-secondary .breadcrumb li .breadcrumb-link--second-level, .nav-secondary .breadcrumb li .active {
+      .nav-secondary .breadcrumb li .breadcrumb-link,
+      .nav-secondary .breadcrumb li .breadcrumb-link--second-level,
+      .nav-secondary .breadcrumb li .active {
         display: inline-block;
         float: none;
         width: auto; } }
-    .nav-secondary .breadcrumb li .breadcrumb-link:after, .nav-secondary .breadcrumb li .breadcrumb-link--second-level:after {
+    .nav-secondary .breadcrumb li .breadcrumb-link:after,
+    .nav-secondary .breadcrumb li .breadcrumb-link--second-level:after {
       content: '\203A';
       display: inline-block;
       height: 5px;
       margin-left: 8px;
       position: absolute;
       width: 5px; }
-.nav-secondary .second-level-nav, .nav-secondary .third-level-nav {
+
+.nav-secondary .second-level-nav,
+.nav-secondary .third-level-nav {
   box-sizing: border-box;
   display: none;
   overflow: hidden;
@@ -474,20 +597,24 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   padding-bottom: 10px;
   border-bottom: 1px solid #d2d2d2; }
   @media only screen and (min-width: 768px) {
-    .nav-secondary .second-level-nav, .nav-secondary .third-level-nav {
+    .nav-secondary .second-level-nav,
+    .nav-secondary .third-level-nav {
       display: inline;
       float: none;
       margin-bottom: 0;
       padding: 0;
       width: auto;
       border-bottom: 0; } }
-  .nav-secondary .second-level-nav li, .nav-secondary .third-level-nav li {
+  .nav-secondary .second-level-nav li,
+  .nav-secondary .third-level-nav li {
     margin: 0; }
     @media only screen and (min-width: 768px) {
-      .nav-secondary .second-level-nav li, .nav-secondary .third-level-nav li {
+      .nav-secondary .second-level-nav li,
+      .nav-secondary .third-level-nav li {
         float: none;
         width: auto; } }
-    .nav-secondary .second-level-nav li a, .nav-secondary .third-level-nav li a {
+    .nav-secondary .second-level-nav li a,
+    .nav-secondary .third-level-nav li a {
       font-size: .875em;
       display: block;
       box-sizing: border-box;
@@ -496,17 +623,22 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
       padding: 10px;
       color: #333; }
       @media only screen and (max-width: 768px) {
-        .nav-secondary .second-level-nav li a.active, .nav-secondary .third-level-nav li a.active {
+        .nav-secondary .second-level-nav li a.active,
+        .nav-secondary .third-level-nav li a.active {
           font-weight: 500; } }
       @media only screen and (min-width: 768px) {
-        .nav-secondary .second-level-nav li a, .nav-secondary .third-level-nav li a {
+        .nav-secondary .second-level-nav li a,
+        .nav-secondary .third-level-nav li a {
           padding: 8px 10px 0; }
-          .nav-secondary .second-level-nav li a.active, .nav-secondary .third-level-nav li a.active {
+          .nav-secondary .second-level-nav li a.active,
+          .nav-secondary .third-level-nav li a.active {
             color: #dd4814; } }
+
 @media only screen and (min-width: 768px) {
   .nav-secondary .second-level-nav li {
     width: auto; }
-    .nav-secondary .second-level-nav li .active, .nav-secondary .second-level-nav li .breadcrumb-link--second-level {
+    .nav-secondary .second-level-nav li .active,
+    .nav-secondary .second-level-nav li .breadcrumb-link--second-level {
       color: #888; }
     .nav-secondary .second-level-nav li .third-level-nav li a {
       color: #333; }
@@ -526,7 +658,9 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   float: none; }
 
 @media only screen and (max-width: 767px) {
-  #breadcrumbs:hover .second-level-nav, #breadcrumbs:hover .third-level-nav, #breadcrumbs:hover .active {
+  #breadcrumbs:hover .second-level-nav,
+  #breadcrumbs:hover .third-level-nav,
+  #breadcrumbs:hover .active {
     border: 0;
     display: block;
     overflow: visible;
@@ -565,19 +699,25 @@ label {
 
 input[type='reset'] {
   display: none; }
+
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
+
 input[type='checkbox'] + label, input[type='radio'] + label {
   display: inline;
   margin-left: 5px;
   vertical-align: middle;
   width: auto; }
+
 input.has-error {
   border: 1px solid #df382c; }
+
 input.has-warning {
   border: 1px solid #eca918; }
+
 input.has-success {
   border: 1px solid #38b44a; }
+
 input.has-information {
   border: 1px solid #19b6ee; }
 
@@ -611,7 +751,9 @@ fieldset {
     margin-bottom: 9px;
     padding-bottom: 10px; }
 
-form input, form select, form textarea {
+form input,
+form select,
+form textarea {
   box-sizing: border-box;
   width: 100%; }
 
@@ -1114,7 +1256,9 @@ form input, form select, form textarea {
     display: block;
     margin-bottom: 0;
     text-transform: lowercase; }
-    .banner h2 a, .banner h2 a:link, .banner h2 a:visited {
+    .banner h2 a,
+    .banner h2 a:link,
+    .banner h2 a:visited {
       float: left;
       text-decoration: none;
       color: #333; }
@@ -1165,7 +1309,9 @@ form input, form select, form textarea {
         @media only screen and (max-width: 768px) {
           .banner .nav-primary ul li:nth-child(2n+2) {
             border-right: 0; } }
-        .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+        .banner .nav-primary ul li a,
+        .banner .nav-primary ul li a:link,
+        .banner .nav-primary ul li a:visited {
           font-size: 1em;
           font-weight: 300;
           position: relative;
@@ -1178,22 +1324,32 @@ form input, form select, form textarea {
           font-smoothing: subpixel-antialiased;
           color: #333; }
           @media only screen and (min-width: 768px) {
-            .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+            .banner .nav-primary ul li a,
+            .banner .nav-primary ul li a:link,
+            .banner .nav-primary ul li a:visited {
               font-size: .875em;
               padding: 14px 14px 13px;
               text-align: center;
               border-left: 1px solid #1f1f1f;
               background-color: transparent;
               color: #333; } }
-          .banner .nav-primary ul li a:hover, .banner .nav-primary ul li a:link:hover, .banner .nav-primary ul li a:visited:hover {
+          .banner .nav-primary ul li a:hover,
+          .banner .nav-primary ul li a:link:hover,
+          .banner .nav-primary ul li a:visited:hover {
             background: #f2f2f2; }
             @media only screen and (min-width: 768px) {
-              .banner .nav-primary ul li a:hover, .banner .nav-primary ul li a:link:hover, .banner .nav-primary ul li a:visited:hover {
+              .banner .nav-primary ul li a:hover,
+              .banner .nav-primary ul li a:link:hover,
+              .banner .nav-primary ul li a:visited:hover {
                 background-color: #141414; } }
-          .banner .nav-primary ul li a.active, .banner .nav-primary ul li a:link.active, .banner .nav-primary ul li a:visited.active {
+          .banner .nav-primary ul li a.active,
+          .banner .nav-primary ul li a:link.active,
+          .banner .nav-primary ul li a:visited.active {
             background-color: #ddd; }
             @media only screen and (min-width: 768px) {
-              .banner .nav-primary ul li a.active, .banner .nav-primary ul li a:link.active, .banner .nav-primary ul li a:visited.active {
+              .banner .nav-primary ul li a.active,
+              .banner .nav-primary ul li a:link.active,
+              .banner .nav-primary ul li a:visited.active {
                 background-color: black;
                 border-left: 0; } }
   .banner .nav-toggle {
@@ -1205,7 +1361,7 @@ form input, form select, form textarea {
     height: 48px;
     cursor: pointer;
     text-indent: -99999px;
-    background-image: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/icons/navigation-menu-plain.svg');
+    background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/icons/navigation-menu-plain.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 25px auto; }
@@ -1226,14 +1382,19 @@ form input, form select, form textarea {
   .banner #nav:target + .nav-toggle .nav-toggle__link.close {
     display: block; }
 
-ol, ul {
+ol,
+ul {
   margin-left: 20px;
   margin-bottom: 20px; }
 
-ol ol, ul ul, ol ul, ul ol {
+ol ol,
+ul ul,
+ol ul,
+ul ol {
   margin-bottom: 0; }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   list-style-image: none; }
 
@@ -1250,11 +1411,14 @@ li {
   list-style: none;
   margin-left: 0; }
 
-.combined-list ul, .combined-list div {
+.combined-list ul,
+.combined-list div {
   margin-bottom: 0; }
+
 .combined-list .last-item {
   border-bottom: 1px dotted #888;
   padding-bottom: 10px; }
+
 .combined-list .last-col {
   margin-bottom: 20px; }
   .combined-list .last-col .last-item {
@@ -1262,7 +1426,8 @@ li {
     padding-bottom: 0; }
 
 @media only screen and (min-width: 768px) {
-  .combined-list ul, .combined-list div {
+  .combined-list ul,
+  .combined-list div {
     margin-bottom: 20px; }
   .combined-list .last-item {
     border-bottom: 0;
@@ -1347,10 +1512,14 @@ li {
   .no-border {
     border: 0; } }
 
-.header-search, .search-form {
+.header-search,
+.search-form {
   padding: 7px 0 7px 14px;
   overflow: hidden; }
-  .header-search [type="search"], .header-search [type="text"], .search-form [type="search"], .search-form [type="text"] {
+  .header-search [type="search"],
+  .header-search [type="text"],
+  .search-form [type="search"],
+  .search-form [type="text"] {
     -webkit-appearance: none;
     background-color: black;
     border-radius: 4px;
@@ -1364,30 +1533,37 @@ li {
     height: 2.1em;
     margin-bottom: 0;
     padding: .5em 2.5em .5em .5em;
-    -webkit-transition: all .5s ease-out;
-            transition: all .5s ease-out;
+    transition: all .5s ease-out;
     width: 100%; }
-  .header-search placeholder, .search-form placeholder {
+  .header-search placeholder,
+  .search-form placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search input:placeholder, .search-form input:placeholder {
+  .header-search input:placeholder,
+  .search-form input:placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::-webkit-input-placeholder, .search-form ::-webkit-input-placeholder {
+  .header-search ::-webkit-input-placeholder,
+  .search-form ::-webkit-input-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::-moz-placeholder, .search-form ::-moz-placeholder {
+  .header-search ::-moz-placeholder,
+  .search-form ::-moz-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search :-ms-input-placeholder, .search-form :-ms-input-placeholder {
+  .header-search :-ms-input-placeholder,
+  .search-form :-ms-input-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::placeholder, .search-form ::placeholder {
+  .header-search ::placeholder,
+  .search-form ::placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search [type="search"]:focus, .search-form [type="search"]:focus {
+  .header-search [type="search"]:focus,
+  .search-form [type="search"]:focus {
     background-color: black; }
-  .header-search [type=submit], .search-form [type=submit] {
+  .header-search [type=submit],
+  .search-form [type=submit] {
     background: none;
     display: block;
     float: left;
@@ -1395,15 +1571,17 @@ li {
     margin-left: -40px;
     overflow: visible;
     padding: 3px 2px; }
-    .header-search [type=submit]:hover, .search-form [type=submit]:hover {
+    .header-search [type=submit]:hover,
+    .search-form [type=submit]:hover {
       background: none; }
-    .header-search [type=submit] img, .search-form [type=submit] img {
+    .header-search [type=submit] img,
+    .search-form [type=submit] img {
       height: 28px;
       width: 28px; }
 
 .banner .search-toggle {
   background-size: 20px 20px;
-  background-image: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search.svg');
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search.svg");
   background-position: center center;
   background-repeat: no-repeat;
   display: block;
@@ -1416,10 +1594,12 @@ li {
   top: 0;
   width: 24px; }
 
-.search-toggle:link, .search-toggle:active {
+.search-toggle:link,
+.search-toggle:active {
   outline: none; }
 
-.header-search, .search-form {
+.header-search,
+.search-form {
   background: #f7f7f7;
   border: 0;
   display: none;
@@ -1431,17 +1611,21 @@ li {
   width: 100%;
   z-index: 3; }
 
-.search-form.active, .header-search.active, .header-search.open {
+.search-form.active,
+.header-search.active,
+.header-search.open {
   display: block; }
 
-.search-form div, .header-search div {
+.search-form div,
+.header-search div {
   box-shadow: inset 0 -4px 4px -4px rgba(0, 0, 0, 0.3), inset 0 5px 5px -5px rgba(0, 0, 0, 0.3);
   background: #121212;
   margin: 10px;
   position: relative;
   z-index: 1; }
 
-.search-form form [type="search"], .header-search form [type="search"] {
+.search-form form [type="search"],
+.header-search form [type="search"] {
   border-radius: 4px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3) inset, 0 -1px 3px rgba(0, 0, 0, 0.2) inset, 0 2px 0 rgba(255, 255, 255, 0.4);
   box-sizing: border-box;
@@ -1455,9 +1639,11 @@ li {
   padding: 9px 10px;
   width: 100%; }
 
-.yes-js .header-inner .search-form, .yes-js .header-inner .header-search {
+.yes-js .header-inner .search-form,
+.yes-js .header-inner .header-search {
   display: none; }
-  .yes-js .header-inner .search-form form, .yes-js .header-inner .header-search form {
+  .yes-js .header-inner .search-form form,
+  .yes-js .header-inner .header-search form {
     box-sizing: border-box;
     margin-left: 0;
     margin-right: 0;
@@ -1471,7 +1657,8 @@ li {
 @media only screen and (max-width: 768px) {
   .banner .search-toggle {
     right: 48px; }
-  .no-svg .search-toggle, .opera-mini .search-toggle {
+  .no-svg .search-toggle,
+  .opera-mini .search-toggle {
     background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-white.png"); } }
 
 @media only screen and (min-width: 768px) {
@@ -1479,7 +1666,8 @@ li {
     display: none; } }
 
 @media only screen and (min-width: 960px) {
-  .search-form, .header-search {
+  .search-form,
+  .header-search {
     background: none;
     border-right: 0 none;
     float: right;
@@ -1487,7 +1675,10 @@ li {
     max-width: 220px;
     overflow: hidden;
     padding: 7px 0 5px 14px; }
-    .search-form form [type="text"], .search-form form [type="search"], .header-search form [type="text"], .header-search form [type="search"] {
+    .search-form form [type="text"],
+    .search-form form [type="search"],
+    .header-search form [type="text"],
+    .header-search form [type="search"] {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) inset;
       box-sizing: content-box;
       background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/icons/icon-search.png") no-repeat scroll 5px center, none repeat scroll 0 0 black;
@@ -1498,8 +1689,7 @@ li {
       height: 24px;
       margin-bottom: 0;
       padding: 4px 4px 4px 30px;
-      -webkit-transition: all .5s ease 0s;
-              transition: all .5s ease 0s;
+      transition: all .5s ease 0s;
       width: 86px; } }
 
 @media only screen and (max-width: 960px) {
@@ -1515,7 +1705,7 @@ li {
     .banner .nav-primary .header-search [type="submit"] {
       width: 32px;
       height: 38px;
-      background: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-black.svg') no-repeat scroll center center transparent;
+      background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-black.svg") no-repeat scroll center center transparent;
       background-size: 28px 28px; }
       .banner .nav-primary .header-search [type="submit"] img {
         max-width: none;
@@ -1534,42 +1724,64 @@ li {
     position: absolute;
     text-indent: -99999px;
     width: 48px; }
-  .no-svg .banner .search-toggle, .opera-mini .banner .search-toggle {
+  .no-svg .banner .search-toggle,
+  .opera-mini .banner .search-toggle {
     background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-white.png"); }
-  .opera-mini x:-o-prefocus, .opera-mini .banner .search-toggle {
+  .opera-mini x:-o-prefocus,
+  .opera-mini .banner .search-toggle {
     background-size: 25px auto; } }
 
 @media only screen and (min-width: 984px) {
-  .search-form, .header-search {
+  .search-form,
+  .header-search {
     display: block;
     margin-right: 0; }
-    .search-form form [type="text"]:focus, .header-search form [type="text"]:focus {
+    .search-form form [type="text"]:focus,
+    .header-search form [type="text"]:focus {
       width: 160px; } }
 
 @media only screen and (max-width: 768px) {
   .banner .search-toggle {
     right: 48px; } }
 
-.ubuntu-search .nav-secondary, .search-results .nav-secondary, .search-no-results .nav-secondary {
+.ubuntu-search .nav-secondary,
+.search-results .nav-secondary,
+.search-no-results .nav-secondary {
   display: none; }
-.ubuntu-search section > h1, .ubuntu-search section article h1, .search-results section > h1, .search-results section article h1, .search-no-results section > h1, .search-no-results section article h1 {
+
+.ubuntu-search section > h1,
+.ubuntu-search section article h1,
+.search-results section > h1,
+.search-results section article h1,
+.search-no-results section > h1,
+.search-no-results section article h1 {
   padding-bottom: 10px;
   font-size: 1.438em;
   margin-bottom: 0; }
-.ubuntu-search section > h1, .search-results section > h1, .search-no-results section > h1 {
+
+.ubuntu-search section > h1,
+.search-results section > h1,
+.search-no-results section > h1 {
   border-bottom: 1px dotted #cdcdcd; }
-.ubuntu-search .main-search, .search-results .main-search, .search-no-results .main-search {
+
+.ubuntu-search .main-search,
+.search-results .main-search,
+.search-no-results .main-search {
   padding: 20px 0;
   margin: 0 0 20px;
   background-color: transparent; }
-  .ubuntu-search .main-search [type="search"], .search-results .main-search [type="search"], .search-no-results .main-search [type="search"] {
+  .ubuntu-search .main-search [type="search"],
+  .search-results .main-search [type="search"],
+  .search-no-results .main-search [type="search"] {
     border: 1px solid #888;
     box-sizing: border-box;
     float: left;
     font-size: 2em;
     padding: .2em 65px .2em .2em;
     width: 100%; }
-  .ubuntu-search .main-search [type=submit], .search-results .main-search [type=submit], .search-no-results .main-search [type=submit] {
+  .ubuntu-search .main-search [type=submit],
+  .search-results .main-search [type=submit],
+  .search-no-results .main-search [type=submit] {
     background: none;
     display: block;
     float: left;
@@ -1579,67 +1791,114 @@ li {
     overflow: visible;
     padding: 4px;
     width: auto; }
-    .ubuntu-search .main-search [type=submit] img, .search-results .main-search [type=submit] img, .search-no-results .main-search [type=submit] img {
+    .ubuntu-search .main-search [type=submit] img,
+    .search-results .main-search [type=submit] img,
+    .search-no-results .main-search [type=submit] img {
       height: 45px;
       width: 45px; }
-  .ubuntu-search .main-search [type=submit]:hover, .search-results .main-search [type=submit]:hover, .search-no-results .main-search [type=submit]:hover {
+  .ubuntu-search .main-search [type=submit]:hover,
+  .search-results .main-search [type=submit]:hover,
+  .search-no-results .main-search [type=submit]:hover {
     background: none; }
-.ubuntu-search .search-result h1 .title-main, .search-results .search-result h1 .title-main, .search-no-results .search-result h1 .title-main {
+
+.ubuntu-search .search-result h1 .title-main,
+.search-results .search-result h1 .title-main,
+.search-no-results .search-result h1 .title-main {
   margin-right: 20px; }
-.ubuntu-search .search-result h1 .result-url, .search-results .search-result h1 .result-url, .search-no-results .search-result h1 .result-url {
+
+.ubuntu-search .search-result h1 .result-url,
+.search-results .search-result h1 .result-url,
+.search-no-results .search-result h1 .result-url {
   color: #888;
   display: block;
   overflow: hidden;
   padding-bottom: 2px;
   text-overflow: ellipsis;
   vertical-align: bottom; }
-  .ubuntu-search .search-result h1 .result-url a, .search-results .search-result h1 .result-url a, .search-no-results .search-result h1 .result-url a {
+  .ubuntu-search .search-result h1 .result-url a,
+  .search-results .search-result h1 .result-url a,
+  .search-no-results .search-result h1 .result-url a {
     color: #888; }
-.ubuntu-search .search-result p, .search-results .search-result p, .search-no-results .search-result p {
+
+.ubuntu-search .search-result p,
+.search-results .search-result p,
+.search-no-results .search-result p {
   margin-bottom: 0; }
-.ubuntu-search .num-results, .search-results .num-results, .search-no-results .num-results {
+
+.ubuntu-search .num-results,
+.search-results .num-results,
+.search-no-results .num-results {
   display: inline-block;
   margin-left: 20px; }
-.ubuntu-search .bottom-results-total, .search-results .bottom-results-total, .search-no-results .bottom-results-total {
+
+.ubuntu-search .bottom-results-total,
+.search-results .bottom-results-total,
+.search-no-results .bottom-results-total {
   margin: 0;
   overflow: visible;
   padding-top: 20px;
   text-align: center;
   width: 100%; }
-.ubuntu-search .bottom-nav, .search-results .bottom-nav, .search-no-results .bottom-nav {
+
+.ubuntu-search .bottom-nav,
+.search-results .bottom-nav,
+.search-no-results .bottom-nav {
   margin-top: -26px;
   overflow: hidden; }
-  .ubuntu-search .bottom-nav ul, .search-results .bottom-nav ul, .search-no-results .bottom-nav ul {
+  .ubuntu-search .bottom-nav ul,
+  .search-results .bottom-nav ul,
+  .search-no-results .bottom-nav ul {
     margin-bottom: 0;
     margin-left: 0;
     overflow: hidden;
     padding: 0; }
-  .ubuntu-search .bottom-nav li, .search-results .bottom-nav li, .search-no-results .bottom-nav li {
+  .ubuntu-search .bottom-nav li,
+  .search-results .bottom-nav li,
+  .search-no-results .bottom-nav li {
     float: left;
     margin-left: 15px; }
-  .ubuntu-search .bottom-nav li:first-child, .search-results .bottom-nav li:first-child, .search-no-results .bottom-nav li:first-child {
+  .ubuntu-search .bottom-nav li:first-child,
+  .search-results .bottom-nav li:first-child,
+  .search-no-results .bottom-nav li:first-child {
     margin-left: 0; }
-.ubuntu-search .nav-back, .search-results .nav-back, .search-no-results .nav-back {
+
+.ubuntu-search .nav-back,
+.search-results .nav-back,
+.search-no-results .nav-back {
   float: left; }
-  .ubuntu-search .nav-back li:before, .search-results .nav-back li:before, .search-no-results .nav-back li:before {
+  .ubuntu-search .nav-back li:before,
+  .search-results .nav-back li:before,
+  .search-no-results .nav-back li:before {
     color: #000;
     content: '\2039';
     /* left chevron &lsaquo; */
     margin-right: 5px; }
-  .ubuntu-search .nav-back .item-extreme:before, .search-results .nav-back .item-extreme:before, .search-no-results .nav-back .item-extreme:before {
+  .ubuntu-search .nav-back .item-extreme:before,
+  .search-results .nav-back .item-extreme:before,
+  .search-no-results .nav-back .item-extreme:before {
     content: '\2039\2039';
     /* double left chevron &lsaquo; */ }
-.ubuntu-search .nav-forward, .search-results .nav-forward, .search-no-results .nav-forward {
+
+.ubuntu-search .nav-forward,
+.search-results .nav-forward,
+.search-no-results .nav-forward {
   float: right; }
-  .ubuntu-search .nav-forward li:after, .search-results .nav-forward li:after, .search-no-results .nav-forward li:after {
+  .ubuntu-search .nav-forward li:after,
+  .search-results .nav-forward li:after,
+  .search-no-results .nav-forward li:after {
     color: #000;
     content: '\203A';
     /* right chevron&nbsp;&rsaquo; */
     margin-left: 5px; }
-  .ubuntu-search .nav-forward .item-extreme:after, .search-results .nav-forward .item-extreme:after, .search-no-results .nav-forward .item-extreme:after {
+  .ubuntu-search .nav-forward .item-extreme:after,
+  .search-results .nav-forward .item-extreme:after,
+  .search-no-results .nav-forward .item-extreme:after {
     content: '\203A\203A';
     /* double right chevron&nbsp;&rsaquo; */ }
-.ubuntu-search .error-notification, .search-results .error-notification, .search-no-results .error-notification {
+
+.ubuntu-search .error-notification,
+.search-results .error-notification,
+.search-no-results .error-notification {
   background-color: #fff;
   box-sizing: border-box;
   color: #333;
@@ -1647,12 +1906,21 @@ li {
   margin-top: 20px;
   padding: 20px;
   width: 100%; }
-.ubuntu-search .result-line, .search-results .result-line, .search-no-results .result-line {
+
+.ubuntu-search .result-line,
+.search-results .result-line,
+.search-no-results .result-line {
   color: #888; }
-.ubuntu-search .results-top, .search-results .results-top, .search-no-results .results-top {
+
+.ubuntu-search .results-top,
+.search-results .results-top,
+.search-no-results .results-top {
   border-bottom: 1px dotted #cdcdcd;
   padding-bottom: .5em; }
-.ubuntu-search .search-container, .search-results .search-container, .search-no-results .search-container {
+
+.ubuntu-search .search-container,
+.search-results .search-container,
+.search-no-results .search-container {
   padding-bottom: 0; }
 
 @media only screen and (min-width: 768px) {
@@ -1664,43 +1932,43 @@ li {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 400;
-  src: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff2') format('woff2'), url('https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff") format("woff"); }
 
 body {
   color: #333;
@@ -1711,26 +1979,32 @@ body {
 a:focus {
   outline: thin dotted; }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0; }
 
 a {
   color: #dd4814;
   text-decoration: none; }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   text-decoration: underline; }
 
-.caps-centered, .muted-heading {
+.caps-centered,
+.muted-heading {
   font-size: .875em;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase; }
 
-small, .smaller {
+small,
+.smaller {
   font-size: 13px; }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -1749,32 +2023,51 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-p + h2, ul + h2, ol + h2, pre + h2 {
+p + h2,
+ul + h2,
+ol + h2,
+pre + h2 {
   margin-top: 0.5625em; }
 
 header nav a:link {
   font-weight: normal; }
 
-p + h3, ul + h3, ol + h3, pre + h3 {
+p + h3,
+ul + h3,
+ol + h3,
+pre + h3 {
   margin-top: .783em; }
 
-p + h4, ul + h4, ol + h4, pre + h4 {
+p + h4,
+ul + h4,
+ol + h4,
+pre + h4 {
   margin-top: 1.21875; }
 
-ol + h2, p + h2, pre + h2, ul + h2 {
+ol + h2,
+p + h2,
+pre + h2,
+ul + h2 {
   margin-top: .563em; }
 
-ol + h3, p + h3, pre + h3, ul + h3 {
+ol + h3,
+p + h3,
+pre + h3,
+ul + h3 {
   margin-top: .783em; }
 
-ol + h4, p + h4, pre + h4, ul + h4 {
+ol + h4,
+p + h4,
+pre + h4,
+ul + h4 {
   margin-top: 1.219em; }
 
 .intro {
   font-size: 1em;
   line-height: 1.4; }
 
-.row div p:last-child, .row ul p:last-child {
+.row div p:last-child,
+.row ul p:last-child {
   margin-bottom: 0; }
 
 .four-col p:last-child {
@@ -1784,7 +2077,12 @@ ol + h4, p + h4, pre + h4, ul + h4 {
   color: #888;
   font-size: .813em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   line-height: 1.3; }
 
@@ -1817,14 +2115,18 @@ h6 {
   letter-spacing: .1em;
   text-transform: uppercase; }
 
-p, li {
+p,
+li {
   font-size: 1em;
   line-height: 1.5;
   margin: 0;
   margin-bottom: .75em;
   padding: 0; }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: Ubuntu,Arial,'libra sans',sans-serif; }
 
 @media only screen and (min-width: 768px) {
@@ -1832,7 +2134,10 @@ button, input, select, textarea {
     font-size: 1.13333em; } }
 
 @media only screen and (min-width: 1030px) {
-  p, li, code, pre {
+  p,
+  li,
+  code,
+  pre {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: .75em; }
@@ -1842,7 +2147,8 @@ button, input, select, textarea {
 dfn {
   font-style: italic; }
 
-code, pre {
+code,
+pre {
   font-family: 'Ubuntu Mono', 'Consolas', 'Monaco', 'Lucida Console', 'Courier New', Courier, monospace; }
 
 table {
@@ -1852,7 +2158,8 @@ table {
   margin-bottom: 20px;
   margin: 0 0 2.5em;
   width: 100%; }
-  table th, table td {
+  table th,
+  table td {
     background: #f7f7f7;
     border: 1px dotted #888;
     padding: 15px 10px; }
@@ -1897,24 +2204,29 @@ footer.global {
     min-height: 40px;
     position: relative;
     width: 100%; }
-    footer.global .legal p, footer.global .legal ul {
+    footer.global .legal p,
+    footer.global .legal ul {
       padding-left: 0; }
   footer.global h2 {
     font-size: .75em;
     line-height: 1.4;
     margin-bottom: 0;
     padding-bottom: .5em; }
-  footer.global h2, footer.global h2 a:link, footer.global h2 a:visited {
+  footer.global h2,
+  footer.global h2 a:link,
+  footer.global h2 a:visited {
     color: #333;
     font-weight: normal; }
   footer.global ul {
     margin: 0; }
   footer.global li a:hover {
     color: #dd4814; }
-  footer.global li ul li a:link, footer.global li ul li a:visited {
+  footer.global li ul li a:link,
+  footer.global li ul li a:visited {
     color: #333;
     font-size: .75em; }
-  footer.global h2 a:hover, footer.global h2 a:active {
+  footer.global h2 a:hover,
+  footer.global h2 a:active {
     color: #dd4814; }
   footer.global p {
     color: #333;
@@ -1946,7 +2258,12 @@ figure {
     width: 100%;
     text-align: center; }
 
-object, iframe, embed, canvas, video, audio {
+object,
+iframe,
+embed,
+canvas,
+video,
+audio {
   display: block;
   max-width: 100%;
   margin: 0 auto 20px; }
@@ -1970,7 +2287,8 @@ audio:not([controls]) {
     left: 0;
     width: 100%;
     height: 100%; }
-  .video-container h3, .video-container .video-title {
+  .video-container h3,
+  .video-container .video-title {
     margin-top: 20px; }
 
 .inline-logos {
@@ -1990,8 +2308,7 @@ audio:not([controls]) {
     .inline-logos li.last-item {
       border: 0; }
   .inline-logos img {
-    -webkit-transition: all .3s ease-out;
-            transition: all .3s ease-out;
+    transition: all .3s ease-out;
     vertical-align: middle;
     max-width: 115px;
     max-height: 32px; }
@@ -2039,10 +2356,12 @@ audio:not([controls]) {
 @media only screen and (min-width: 768px) {
   .vertical-divider {
     position: relative; }
-    .vertical-divider > div, .vertical-divider > li {
+    .vertical-divider > div,
+    .vertical-divider > li {
       padding-left: 10px;
       padding-right: 10px; }
-      .vertical-divider > div:before, .vertical-divider > li:before {
+      .vertical-divider > div:before,
+      .vertical-divider > li:before {
         content: '';
         position: absolute;
         right: -10px;
@@ -2050,46 +2369,45 @@ audio:not([controls]) {
         height: 100%;
         width: 1px;
         border-left: 1px dotted #888; }
-    .vertical-divider > .last-col, .vertical-divider > div:last-of-type, .vertical-divider > li:last-of-type {
+    .vertical-divider > .last-col,
+    .vertical-divider > div:last-of-type,
+    .vertical-divider > li:last-of-type {
       padding-right: 0; }
-      .vertical-divider > .last-col:before, .vertical-divider > div:last-of-type:before, .vertical-divider > li:last-of-type:before {
+      .vertical-divider > .last-col:before,
+      .vertical-divider > div:last-of-type:before,
+      .vertical-divider > li:last-of-type:before {
         border-left: 0; }
-    .vertical-divider > div:first-of-type, .vertical-divider > li:first-of-type {
+    .vertical-divider > div:first-of-type,
+    .vertical-divider > li:first-of-type {
       padding-left: 0; } }
 
 @media only screen and (min-width: 768px) {
   .equal-height {
-    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
     width: 100%; }
-    .equal-height > div, .equal-height > li {
+    .equal-height > div,
+    .equal-height > li {
       box-sizing: border-box;
-      display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-flex: 1;
       -webkit-flex: auto;
           -ms-flex: auto;
               flex: auto;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column; } }
 
 body {
-  background: url('https://assets.ubuntu.com/sites/ubuntu/latest/u/img/backgrounds/image-background-paper.png') repeat-y center top #f7f7f7; }
+  background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/backgrounds/image-background-paper.png") repeat-y center top #f7f7f7; }
 
 .banner {
   margin-bottom: 0; }
@@ -2136,7 +2454,9 @@ body {
     .banner .nav-primary ul li:nth-child(2n+2) {
       border-right: 0; } }
   @media only screen and (min-width: 768px) {
-    .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+    .banner .nav-primary ul li a,
+    .banner .nav-primary ul li a:link,
+    .banner .nav-primary ul li a:visited {
       border-left: 0;
       color: #fff; } }
 
@@ -2149,7 +2469,8 @@ body {
   position: relative;
   width: 100%;
   border-bottom: 1px dotted #ddd; }
-  .instruction .instruction__bullet, .instruction .instruction__details {
+  .instruction .instruction__bullet,
+  .instruction .instruction__details {
     padding: 60px 40px;
     margin-bottom: 0; }
   .instruction .instruction__bullet {
@@ -2176,8 +2497,7 @@ body {
     background-color: #2c001e;
     border: 1px solid #2c001e;
     overflow: hidden;
-    -webkit-transition: all .2s;
-            transition: all .2s; }
+    transition: all .2s; }
     .instruction .command-line .command-line__input {
       border: 0;
       background: transparent;
@@ -2188,8 +2508,7 @@ body {
       color: #fff;
       width: 100%; }
     .instruction .command-line .command-line__copy-button {
-      -webkit-transition: background-color .2s;
-              transition: background-color .2s;
+      transition: background-color .2s;
       position: absolute;
       right: 0;
       top: 0;
@@ -2198,7 +2517,7 @@ body {
       height: 100%;
       display: block;
       text-indent: -9999px;
-      background-image: url('https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg');
+      background-image: url("https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #fff; }
@@ -2227,22 +2546,108 @@ body {
 
 a:link, a:visited {
   color: #dd4814; }
+
 a.button--primary:link, a.button--primary:visited {
   color: #fff; }
 
 pre {
   background-color: #fff; }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   border: 0;
   margin: 0;
   padding: 0;
   vertical-align: baseline; }
 
-article, aside, details, figcaption, figure, footer, header, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
   display: block; }
 
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block; }
 
 audio:not([controls]) {
@@ -2258,7 +2663,8 @@ html {
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
 legend {
@@ -2267,7 +2673,8 @@ legend {
 figure {
   margin: 0; }
 
-abbr, acronym {
+abbr,
+acronym {
   cursor: help; }
 
 .link-arrow:after {
@@ -2276,7 +2683,9 @@ abbr, acronym {
 nav ul li h2 a:after {
   content: '\0000a0›'; }
 
-nav ul li a:after, .carousel ul li a:after, ul li p a:after {
+nav ul li a:after,
+.carousel ul li a:after,
+ul li p a:after {
   content: ''; }
 
 svg:not(:root) {
@@ -2328,30 +2737,34 @@ ins {
   text-transform: uppercase; }
 
 @media only screen and (min-width: 768px) {
-  .touch-border, .touch-bottom {
+  .touch-border,
+  .touch-bottom {
     float: left;
     margin-bottom: -20px; } }
 
 @media only screen and (min-width: 1030px) {
-  .touch-border, .touch-bottom {
+  .touch-border,
+  .touch-bottom {
     float: left;
     margin-bottom: -40px; } }
 
-.accessibility-aid, .off-left {
+.accessibility-aid,
+.off-left {
   position: absolute;
   left: -999em; }
 
 .external {
   background-size: .7em .7em;
   padding-right: .9em;
-  background-image: url('https://assets.ubuntu.comimg/external-link-orange.svg');
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.svg");
   background-position: 100% top;
   background-repeat: no-repeat; }
 
 .no-svg .external {
-  background-image: url('https://assets.ubuntu.comimg/external-link-orange.png'); }
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/external-link-orange.png"); }
 
-.text-center, .align-center {
+.text-center,
+.align-center {
   text-align: center; }
 
 .no-margin-bottom {
@@ -2389,11 +2802,13 @@ ins {
     margin-bottom: -60px; } }
 
 @media only screen and (max-width: 767px) {
-  .priority-0, .not-for-small {
+  .priority-0,
+  .not-for-small {
     display: none; } }
 
 @media only screen and (min-width: 768px) {
-  .for-mobile, .for-small {
+  .for-mobile,
+  .for-small {
     display: none; } }
 
 .video-container {
@@ -2422,7 +2837,8 @@ ins {
   margin-left: -40px; }
 
 @media only screen and (min-width: 1030px) {
-  .for-tablet, .for-medium {
+  .for-tablet,
+  .for-medium {
     display: none; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1030px) {
@@ -2471,7 +2887,7 @@ blockquote {
       text-indent: -.7em; }
       .pull-quote p span {
         top: 5px;
-        font-size: 1.3913em; }
+        font-size: 1.391304348em; }
       .pull-quote p cite {
         margin-left: 0;
         text-indent: 0; } }
@@ -2518,7 +2934,7 @@ blockquote {
           text-indent: -.4em; }
         .row-quote blockquote span {
           top: 5px;
-          font-size: 1.3913em; }
+          font-size: 1.391304348em; }
         .row-quote blockquote cite {
           margin-left: 0;
           text-indent: 0; } }
@@ -2529,10 +2945,18 @@ blockquote {
       .row-quote blockquote p span {
         top: 10px; } }
 
-button, input[type='button'], input[type='reset'], input[type='submit'], .button--primary {
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button--primary {
   color: #fff;
   background: #dd4814; }
-  button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover, .button--primary:hover {
+  button:hover,
+  input[type='button']:hover,
+  input[type='reset']:hover,
+  input[type='submit']:hover,
+  .button--primary:hover {
     background: #c03f11; }
 
 .button--secondary {
@@ -2546,6 +2970,7 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   .nav-secondary {
     border: 1px solid #d2d2d2;
     border-top: 0; } }
+
 .nav-secondary .breadcrumb {
   box-sizing: border-box;
   margin-bottom: 0;
@@ -2584,18 +3009,23 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
         .nav-secondary .breadcrumb li a {
           font-size: .875em; } }
     @media only screen and (min-width: 768px) {
-      .nav-secondary .breadcrumb li .breadcrumb-link, .nav-secondary .breadcrumb li .breadcrumb-link--second-level, .nav-secondary .breadcrumb li .active {
+      .nav-secondary .breadcrumb li .breadcrumb-link,
+      .nav-secondary .breadcrumb li .breadcrumb-link--second-level,
+      .nav-secondary .breadcrumb li .active {
         display: inline-block;
         float: none;
         width: auto; } }
-    .nav-secondary .breadcrumb li .breadcrumb-link:after, .nav-secondary .breadcrumb li .breadcrumb-link--second-level:after {
+    .nav-secondary .breadcrumb li .breadcrumb-link:after,
+    .nav-secondary .breadcrumb li .breadcrumb-link--second-level:after {
       content: '\203A';
       display: inline-block;
       height: 5px;
       margin-left: 8px;
       position: absolute;
       width: 5px; }
-.nav-secondary .second-level-nav, .nav-secondary .third-level-nav {
+
+.nav-secondary .second-level-nav,
+.nav-secondary .third-level-nav {
   box-sizing: border-box;
   display: none;
   overflow: hidden;
@@ -2605,20 +3035,24 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   padding-bottom: 10px;
   border-bottom: 1px solid #d2d2d2; }
   @media only screen and (min-width: 768px) {
-    .nav-secondary .second-level-nav, .nav-secondary .third-level-nav {
+    .nav-secondary .second-level-nav,
+    .nav-secondary .third-level-nav {
       display: inline;
       float: none;
       margin-bottom: 0;
       padding: 0;
       width: auto;
       border-bottom: 0; } }
-  .nav-secondary .second-level-nav li, .nav-secondary .third-level-nav li {
+  .nav-secondary .second-level-nav li,
+  .nav-secondary .third-level-nav li {
     margin: 0; }
     @media only screen and (min-width: 768px) {
-      .nav-secondary .second-level-nav li, .nav-secondary .third-level-nav li {
+      .nav-secondary .second-level-nav li,
+      .nav-secondary .third-level-nav li {
         float: none;
         width: auto; } }
-    .nav-secondary .second-level-nav li a, .nav-secondary .third-level-nav li a {
+    .nav-secondary .second-level-nav li a,
+    .nav-secondary .third-level-nav li a {
       font-size: .875em;
       display: block;
       box-sizing: border-box;
@@ -2627,17 +3061,22 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
       padding: 10px;
       color: #333; }
       @media only screen and (max-width: 768px) {
-        .nav-secondary .second-level-nav li a.active, .nav-secondary .third-level-nav li a.active {
+        .nav-secondary .second-level-nav li a.active,
+        .nav-secondary .third-level-nav li a.active {
           font-weight: 500; } }
       @media only screen and (min-width: 768px) {
-        .nav-secondary .second-level-nav li a, .nav-secondary .third-level-nav li a {
+        .nav-secondary .second-level-nav li a,
+        .nav-secondary .third-level-nav li a {
           padding: 8px 10px 0; }
-          .nav-secondary .second-level-nav li a.active, .nav-secondary .third-level-nav li a.active {
+          .nav-secondary .second-level-nav li a.active,
+          .nav-secondary .third-level-nav li a.active {
             color: #dd4814; } }
+
 @media only screen and (min-width: 768px) {
   .nav-secondary .second-level-nav li {
     width: auto; }
-    .nav-secondary .second-level-nav li .active, .nav-secondary .second-level-nav li .breadcrumb-link--second-level {
+    .nav-secondary .second-level-nav li .active,
+    .nav-secondary .second-level-nav li .breadcrumb-link--second-level {
       color: #888; }
     .nav-secondary .second-level-nav li .third-level-nav li a {
       color: #333; }
@@ -2657,7 +3096,9 @@ button, input[type='button'], input[type='reset'], input[type='submit'], .button
   float: none; }
 
 @media only screen and (max-width: 767px) {
-  #breadcrumbs:hover .second-level-nav, #breadcrumbs:hover .third-level-nav, #breadcrumbs:hover .active {
+  #breadcrumbs:hover .second-level-nav,
+  #breadcrumbs:hover .third-level-nav,
+  #breadcrumbs:hover .active {
     border: 0;
     display: block;
     overflow: visible;
@@ -2696,19 +3137,25 @@ label {
 
 input[type='reset'] {
   display: none; }
+
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
+
 input[type='checkbox'] + label, input[type='radio'] + label {
   display: inline;
   margin-left: 5px;
   vertical-align: middle;
   width: auto; }
+
 input.has-error {
   border: 1px solid #df382c; }
+
 input.has-warning {
   border: 1px solid #eca918; }
+
 input.has-success {
   border: 1px solid #38b44a; }
+
 input.has-information {
   border: 1px solid #19b6ee; }
 
@@ -2742,7 +3189,9 @@ fieldset {
     margin-bottom: 9px;
     padding-bottom: 10px; }
 
-form input, form select, form textarea {
+form input,
+form select,
+form textarea {
   box-sizing: border-box;
   width: 100%; }
 
@@ -3245,7 +3694,9 @@ form input, form select, form textarea {
     display: block;
     margin-bottom: 0;
     text-transform: lowercase; }
-    .banner h2 a, .banner h2 a:link, .banner h2 a:visited {
+    .banner h2 a,
+    .banner h2 a:link,
+    .banner h2 a:visited {
       float: left;
       text-decoration: none;
       color: #333; }
@@ -3296,7 +3747,9 @@ form input, form select, form textarea {
         @media only screen and (max-width: 768px) {
           .banner .nav-primary ul li:nth-child(2n+2) {
             border-right: 0; } }
-        .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+        .banner .nav-primary ul li a,
+        .banner .nav-primary ul li a:link,
+        .banner .nav-primary ul li a:visited {
           font-size: 1em;
           font-weight: 300;
           position: relative;
@@ -3309,22 +3762,32 @@ form input, form select, form textarea {
           font-smoothing: subpixel-antialiased;
           color: #333; }
           @media only screen and (min-width: 768px) {
-            .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+            .banner .nav-primary ul li a,
+            .banner .nav-primary ul li a:link,
+            .banner .nav-primary ul li a:visited {
               font-size: .875em;
               padding: 14px 14px 13px;
               text-align: center;
               border-left: 1px solid #1f1f1f;
               background-color: transparent;
               color: #333; } }
-          .banner .nav-primary ul li a:hover, .banner .nav-primary ul li a:link:hover, .banner .nav-primary ul li a:visited:hover {
+          .banner .nav-primary ul li a:hover,
+          .banner .nav-primary ul li a:link:hover,
+          .banner .nav-primary ul li a:visited:hover {
             background: #f2f2f2; }
             @media only screen and (min-width: 768px) {
-              .banner .nav-primary ul li a:hover, .banner .nav-primary ul li a:link:hover, .banner .nav-primary ul li a:visited:hover {
+              .banner .nav-primary ul li a:hover,
+              .banner .nav-primary ul li a:link:hover,
+              .banner .nav-primary ul li a:visited:hover {
                 background-color: #141414; } }
-          .banner .nav-primary ul li a.active, .banner .nav-primary ul li a:link.active, .banner .nav-primary ul li a:visited.active {
+          .banner .nav-primary ul li a.active,
+          .banner .nav-primary ul li a:link.active,
+          .banner .nav-primary ul li a:visited.active {
             background-color: #ddd; }
             @media only screen and (min-width: 768px) {
-              .banner .nav-primary ul li a.active, .banner .nav-primary ul li a:link.active, .banner .nav-primary ul li a:visited.active {
+              .banner .nav-primary ul li a.active,
+              .banner .nav-primary ul li a:link.active,
+              .banner .nav-primary ul li a:visited.active {
                 background-color: black;
                 border-left: 0; } }
   .banner .nav-toggle {
@@ -3336,7 +3799,7 @@ form input, form select, form textarea {
     height: 48px;
     cursor: pointer;
     text-indent: -99999px;
-    background-image: url('https://assets.ubuntu.comimg/icons/navigation-menu-plain.svg');
+    background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/icons/navigation-menu-plain.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 25px auto; }
@@ -3357,14 +3820,19 @@ form input, form select, form textarea {
   .banner #nav:target + .nav-toggle .nav-toggle__link.close {
     display: block; }
 
-ol, ul {
+ol,
+ul {
   margin-left: 20px;
   margin-bottom: 20px; }
 
-ol ol, ul ul, ol ul, ul ol {
+ol ol,
+ul ul,
+ol ul,
+ul ol {
   margin-bottom: 0; }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   list-style-image: none; }
 
@@ -3381,11 +3849,14 @@ li {
   list-style: none;
   margin-left: 0; }
 
-.combined-list ul, .combined-list div {
+.combined-list ul,
+.combined-list div {
   margin-bottom: 0; }
+
 .combined-list .last-item {
   border-bottom: 1px dotted #888;
   padding-bottom: 10px; }
+
 .combined-list .last-col {
   margin-bottom: 20px; }
   .combined-list .last-col .last-item {
@@ -3393,7 +3864,8 @@ li {
     padding-bottom: 0; }
 
 @media only screen and (min-width: 768px) {
-  .combined-list ul, .combined-list div {
+  .combined-list ul,
+  .combined-list div {
     margin-bottom: 20px; }
   .combined-list .last-item {
     border-bottom: 0;
@@ -3478,10 +3950,14 @@ li {
   .no-border {
     border: 0; } }
 
-.header-search, .search-form {
+.header-search,
+.search-form {
   padding: 7px 0 7px 14px;
   overflow: hidden; }
-  .header-search [type="search"], .header-search [type="text"], .search-form [type="search"], .search-form [type="text"] {
+  .header-search [type="search"],
+  .header-search [type="text"],
+  .search-form [type="search"],
+  .search-form [type="text"] {
     -webkit-appearance: none;
     background-color: black;
     border-radius: 4px;
@@ -3495,30 +3971,37 @@ li {
     height: 2.1em;
     margin-bottom: 0;
     padding: .5em 2.5em .5em .5em;
-    -webkit-transition: all .5s ease-out;
-            transition: all .5s ease-out;
+    transition: all .5s ease-out;
     width: 100%; }
-  .header-search placeholder, .search-form placeholder {
+  .header-search placeholder,
+  .search-form placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search input:placeholder, .search-form input:placeholder {
+  .header-search input:placeholder,
+  .search-form input:placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::-webkit-input-placeholder, .search-form ::-webkit-input-placeholder {
+  .header-search ::-webkit-input-placeholder,
+  .search-form ::-webkit-input-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::-moz-placeholder, .search-form ::-moz-placeholder {
+  .header-search ::-moz-placeholder,
+  .search-form ::-moz-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search :-ms-input-placeholder, .search-form :-ms-input-placeholder {
+  .header-search :-ms-input-placeholder,
+  .search-form :-ms-input-placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search ::placeholder, .search-form ::placeholder {
+  .header-search ::placeholder,
+  .search-form ::placeholder {
     color: #fff;
     opacity: .4; }
-  .header-search [type="search"]:focus, .search-form [type="search"]:focus {
+  .header-search [type="search"]:focus,
+  .search-form [type="search"]:focus {
     background-color: black; }
-  .header-search [type=submit], .search-form [type=submit] {
+  .header-search [type=submit],
+  .search-form [type=submit] {
     background: none;
     display: block;
     float: left;
@@ -3526,15 +4009,17 @@ li {
     margin-left: -40px;
     overflow: visible;
     padding: 3px 2px; }
-    .header-search [type=submit]:hover, .search-form [type=submit]:hover {
+    .header-search [type=submit]:hover,
+    .search-form [type=submit]:hover {
       background: none; }
-    .header-search [type=submit] img, .search-form [type=submit] img {
+    .header-search [type=submit] img,
+    .search-form [type=submit] img {
       height: 28px;
       width: 28px; }
 
 .banner .search-toggle {
   background-size: 20px 20px;
-  background-image: url('https://assets.ubuntu.comimg/search.svg');
+  background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search.svg");
   background-position: center center;
   background-repeat: no-repeat;
   display: block;
@@ -3547,10 +4032,12 @@ li {
   top: 0;
   width: 24px; }
 
-.search-toggle:link, .search-toggle:active {
+.search-toggle:link,
+.search-toggle:active {
   outline: none; }
 
-.header-search, .search-form {
+.header-search,
+.search-form {
   background: #f7f7f7;
   border: 0;
   display: none;
@@ -3562,17 +4049,21 @@ li {
   width: 100%;
   z-index: 3; }
 
-.search-form.active, .header-search.active, .header-search.open {
+.search-form.active,
+.header-search.active,
+.header-search.open {
   display: block; }
 
-.search-form div, .header-search div {
+.search-form div,
+.header-search div {
   box-shadow: inset 0 -4px 4px -4px rgba(0, 0, 0, 0.3), inset 0 5px 5px -5px rgba(0, 0, 0, 0.3);
   background: #121212;
   margin: 10px;
   position: relative;
   z-index: 1; }
 
-.search-form form [type="search"], .header-search form [type="search"] {
+.search-form form [type="search"],
+.header-search form [type="search"] {
   border-radius: 4px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3) inset, 0 -1px 3px rgba(0, 0, 0, 0.2) inset, 0 2px 0 rgba(255, 255, 255, 0.4);
   box-sizing: border-box;
@@ -3586,9 +4077,11 @@ li {
   padding: 9px 10px;
   width: 100%; }
 
-.yes-js .header-inner .search-form, .yes-js .header-inner .header-search {
+.yes-js .header-inner .search-form,
+.yes-js .header-inner .header-search {
   display: none; }
-  .yes-js .header-inner .search-form form, .yes-js .header-inner .header-search form {
+  .yes-js .header-inner .search-form form,
+  .yes-js .header-inner .header-search form {
     box-sizing: border-box;
     margin-left: 0;
     margin-right: 0;
@@ -3602,15 +4095,17 @@ li {
 @media only screen and (max-width: 768px) {
   .banner .search-toggle {
     right: 48px; }
-  .no-svg .search-toggle, .opera-mini .search-toggle {
-    background-image: url("https://assets.ubuntu.comimg/search-white.png"); } }
+  .no-svg .search-toggle,
+  .opera-mini .search-toggle {
+    background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-white.png"); } }
 
 @media only screen and (min-width: 768px) {
   .banner .search-toggle {
     display: none; } }
 
 @media only screen and (min-width: 960px) {
-  .search-form, .header-search {
+  .search-form,
+  .header-search {
     background: none;
     border-right: 0 none;
     float: right;
@@ -3618,10 +4113,13 @@ li {
     max-width: 220px;
     overflow: hidden;
     padding: 7px 0 5px 14px; }
-    .search-form form [type="text"], .search-form form [type="search"], .header-search form [type="text"], .header-search form [type="search"] {
+    .search-form form [type="text"],
+    .search-form form [type="search"],
+    .header-search form [type="text"],
+    .header-search form [type="search"] {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) inset;
       box-sizing: content-box;
-      background: url("https://assets.ubuntu.comimg/icons/icon-search.png") no-repeat scroll 5px center, none repeat scroll 0 0 black;
+      background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/icons/icon-search.png") no-repeat scroll 5px center, none repeat scroll 0 0 black;
       border: 6px solid black;
       border-width: 0 0 1px;
       color: #fff;
@@ -3629,8 +4127,7 @@ li {
       height: 24px;
       margin-bottom: 0;
       padding: 4px 4px 4px 30px;
-      -webkit-transition: all .5s ease 0s;
-              transition: all .5s ease 0s;
+      transition: all .5s ease 0s;
       width: 86px; } }
 
 @media only screen and (max-width: 960px) {
@@ -3646,7 +4143,7 @@ li {
     .banner .nav-primary .header-search [type="submit"] {
       width: 32px;
       height: 38px;
-      background: url('https://assets.ubuntu.comimg/search-black.svg') no-repeat scroll center center transparent;
+      background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-black.svg") no-repeat scroll center center transparent;
       background-size: 28px 28px; }
       .banner .nav-primary .header-search [type="submit"] img {
         max-width: none;
@@ -3654,7 +4151,7 @@ li {
     .banner .nav-primary .header-search.open {
       display: block; }
   .banner .search-toggle {
-    background-image: url("https://assets.ubuntu.comimg/search-white.svg");
+    background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-white.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 25px auto;
@@ -3665,42 +4162,64 @@ li {
     position: absolute;
     text-indent: -99999px;
     width: 48px; }
-  .no-svg .banner .search-toggle, .opera-mini .banner .search-toggle {
-    background-image: url("https://assets.ubuntu.comimg/search-white.png"); }
-  .opera-mini x:-o-prefocus, .opera-mini .banner .search-toggle {
+  .no-svg .banner .search-toggle,
+  .opera-mini .banner .search-toggle {
+    background-image: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/search-white.png"); }
+  .opera-mini x:-o-prefocus,
+  .opera-mini .banner .search-toggle {
     background-size: 25px auto; } }
 
 @media only screen and (min-width: 984px) {
-  .search-form, .header-search {
+  .search-form,
+  .header-search {
     display: block;
     margin-right: 0; }
-    .search-form form [type="text"]:focus, .header-search form [type="text"]:focus {
+    .search-form form [type="text"]:focus,
+    .header-search form [type="text"]:focus {
       width: 160px; } }
 
 @media only screen and (max-width: 768px) {
   .banner .search-toggle {
     right: 48px; } }
 
-.ubuntu-search .nav-secondary, .search-results .nav-secondary, .search-no-results .nav-secondary {
+.ubuntu-search .nav-secondary,
+.search-results .nav-secondary,
+.search-no-results .nav-secondary {
   display: none; }
-.ubuntu-search section > h1, .ubuntu-search section article h1, .search-results section > h1, .search-results section article h1, .search-no-results section > h1, .search-no-results section article h1 {
+
+.ubuntu-search section > h1,
+.ubuntu-search section article h1,
+.search-results section > h1,
+.search-results section article h1,
+.search-no-results section > h1,
+.search-no-results section article h1 {
   padding-bottom: 10px;
   font-size: 1.438em;
   margin-bottom: 0; }
-.ubuntu-search section > h1, .search-results section > h1, .search-no-results section > h1 {
+
+.ubuntu-search section > h1,
+.search-results section > h1,
+.search-no-results section > h1 {
   border-bottom: 1px dotted #cdcdcd; }
-.ubuntu-search .main-search, .search-results .main-search, .search-no-results .main-search {
+
+.ubuntu-search .main-search,
+.search-results .main-search,
+.search-no-results .main-search {
   padding: 20px 0;
   margin: 0 0 20px;
   background-color: transparent; }
-  .ubuntu-search .main-search [type="search"], .search-results .main-search [type="search"], .search-no-results .main-search [type="search"] {
+  .ubuntu-search .main-search [type="search"],
+  .search-results .main-search [type="search"],
+  .search-no-results .main-search [type="search"] {
     border: 1px solid #888;
     box-sizing: border-box;
     float: left;
     font-size: 2em;
     padding: .2em 65px .2em .2em;
     width: 100%; }
-  .ubuntu-search .main-search [type=submit], .search-results .main-search [type=submit], .search-no-results .main-search [type=submit] {
+  .ubuntu-search .main-search [type=submit],
+  .search-results .main-search [type=submit],
+  .search-no-results .main-search [type=submit] {
     background: none;
     display: block;
     float: left;
@@ -3710,67 +4229,114 @@ li {
     overflow: visible;
     padding: 4px;
     width: auto; }
-    .ubuntu-search .main-search [type=submit] img, .search-results .main-search [type=submit] img, .search-no-results .main-search [type=submit] img {
+    .ubuntu-search .main-search [type=submit] img,
+    .search-results .main-search [type=submit] img,
+    .search-no-results .main-search [type=submit] img {
       height: 45px;
       width: 45px; }
-  .ubuntu-search .main-search [type=submit]:hover, .search-results .main-search [type=submit]:hover, .search-no-results .main-search [type=submit]:hover {
+  .ubuntu-search .main-search [type=submit]:hover,
+  .search-results .main-search [type=submit]:hover,
+  .search-no-results .main-search [type=submit]:hover {
     background: none; }
-.ubuntu-search .search-result h1 .title-main, .search-results .search-result h1 .title-main, .search-no-results .search-result h1 .title-main {
+
+.ubuntu-search .search-result h1 .title-main,
+.search-results .search-result h1 .title-main,
+.search-no-results .search-result h1 .title-main {
   margin-right: 20px; }
-.ubuntu-search .search-result h1 .result-url, .search-results .search-result h1 .result-url, .search-no-results .search-result h1 .result-url {
+
+.ubuntu-search .search-result h1 .result-url,
+.search-results .search-result h1 .result-url,
+.search-no-results .search-result h1 .result-url {
   color: #888;
   display: block;
   overflow: hidden;
   padding-bottom: 2px;
   text-overflow: ellipsis;
   vertical-align: bottom; }
-  .ubuntu-search .search-result h1 .result-url a, .search-results .search-result h1 .result-url a, .search-no-results .search-result h1 .result-url a {
+  .ubuntu-search .search-result h1 .result-url a,
+  .search-results .search-result h1 .result-url a,
+  .search-no-results .search-result h1 .result-url a {
     color: #888; }
-.ubuntu-search .search-result p, .search-results .search-result p, .search-no-results .search-result p {
+
+.ubuntu-search .search-result p,
+.search-results .search-result p,
+.search-no-results .search-result p {
   margin-bottom: 0; }
-.ubuntu-search .num-results, .search-results .num-results, .search-no-results .num-results {
+
+.ubuntu-search .num-results,
+.search-results .num-results,
+.search-no-results .num-results {
   display: inline-block;
   margin-left: 20px; }
-.ubuntu-search .bottom-results-total, .search-results .bottom-results-total, .search-no-results .bottom-results-total {
+
+.ubuntu-search .bottom-results-total,
+.search-results .bottom-results-total,
+.search-no-results .bottom-results-total {
   margin: 0;
   overflow: visible;
   padding-top: 20px;
   text-align: center;
   width: 100%; }
-.ubuntu-search .bottom-nav, .search-results .bottom-nav, .search-no-results .bottom-nav {
+
+.ubuntu-search .bottom-nav,
+.search-results .bottom-nav,
+.search-no-results .bottom-nav {
   margin-top: -26px;
   overflow: hidden; }
-  .ubuntu-search .bottom-nav ul, .search-results .bottom-nav ul, .search-no-results .bottom-nav ul {
+  .ubuntu-search .bottom-nav ul,
+  .search-results .bottom-nav ul,
+  .search-no-results .bottom-nav ul {
     margin-bottom: 0;
     margin-left: 0;
     overflow: hidden;
     padding: 0; }
-  .ubuntu-search .bottom-nav li, .search-results .bottom-nav li, .search-no-results .bottom-nav li {
+  .ubuntu-search .bottom-nav li,
+  .search-results .bottom-nav li,
+  .search-no-results .bottom-nav li {
     float: left;
     margin-left: 15px; }
-  .ubuntu-search .bottom-nav li:first-child, .search-results .bottom-nav li:first-child, .search-no-results .bottom-nav li:first-child {
+  .ubuntu-search .bottom-nav li:first-child,
+  .search-results .bottom-nav li:first-child,
+  .search-no-results .bottom-nav li:first-child {
     margin-left: 0; }
-.ubuntu-search .nav-back, .search-results .nav-back, .search-no-results .nav-back {
+
+.ubuntu-search .nav-back,
+.search-results .nav-back,
+.search-no-results .nav-back {
   float: left; }
-  .ubuntu-search .nav-back li:before, .search-results .nav-back li:before, .search-no-results .nav-back li:before {
+  .ubuntu-search .nav-back li:before,
+  .search-results .nav-back li:before,
+  .search-no-results .nav-back li:before {
     color: #000;
     content: '\2039';
     /* left chevron &lsaquo; */
     margin-right: 5px; }
-  .ubuntu-search .nav-back .item-extreme:before, .search-results .nav-back .item-extreme:before, .search-no-results .nav-back .item-extreme:before {
+  .ubuntu-search .nav-back .item-extreme:before,
+  .search-results .nav-back .item-extreme:before,
+  .search-no-results .nav-back .item-extreme:before {
     content: '\2039\2039';
     /* double left chevron &lsaquo; */ }
-.ubuntu-search .nav-forward, .search-results .nav-forward, .search-no-results .nav-forward {
+
+.ubuntu-search .nav-forward,
+.search-results .nav-forward,
+.search-no-results .nav-forward {
   float: right; }
-  .ubuntu-search .nav-forward li:after, .search-results .nav-forward li:after, .search-no-results .nav-forward li:after {
+  .ubuntu-search .nav-forward li:after,
+  .search-results .nav-forward li:after,
+  .search-no-results .nav-forward li:after {
     color: #000;
     content: '\203A';
     /* right chevron&nbsp;&rsaquo; */
     margin-left: 5px; }
-  .ubuntu-search .nav-forward .item-extreme:after, .search-results .nav-forward .item-extreme:after, .search-no-results .nav-forward .item-extreme:after {
+  .ubuntu-search .nav-forward .item-extreme:after,
+  .search-results .nav-forward .item-extreme:after,
+  .search-no-results .nav-forward .item-extreme:after {
     content: '\203A\203A';
     /* double right chevron&nbsp;&rsaquo; */ }
-.ubuntu-search .error-notification, .search-results .error-notification, .search-no-results .error-notification {
+
+.ubuntu-search .error-notification,
+.search-results .error-notification,
+.search-no-results .error-notification {
   background-color: #fff;
   box-sizing: border-box;
   color: #333;
@@ -3778,12 +4344,21 @@ li {
   margin-top: 20px;
   padding: 20px;
   width: 100%; }
-.ubuntu-search .result-line, .search-results .result-line, .search-no-results .result-line {
+
+.ubuntu-search .result-line,
+.search-results .result-line,
+.search-no-results .result-line {
   color: #888; }
-.ubuntu-search .results-top, .search-results .results-top, .search-no-results .results-top {
+
+.ubuntu-search .results-top,
+.search-results .results-top,
+.search-no-results .results-top {
   border-bottom: 1px dotted #cdcdcd;
   padding-bottom: .5em; }
-.ubuntu-search .search-container, .search-results .search-container, .search-no-results .search-container {
+
+.ubuntu-search .search-container,
+.search-results .search-container,
+.search-no-results .search-container {
   padding-bottom: 0; }
 
 @media only screen and (min-width: 768px) {
@@ -3795,43 +4370,43 @@ li {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-l-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-l-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-l-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-r-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-r-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-r-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-b-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-b-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-b-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 300;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-li-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-li-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-li-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-ri-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-ri-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-ri-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
-  src: url('https://assets.ubuntu.comfonts/ubuntu-bi-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntu-bi-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntu-bi-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 400;
-  src: url('https://assets.ubuntu.comfonts/ubuntumono-r-webfont.woff2') format('woff2'), url('https://assets.ubuntu.comfonts/ubuntumono-r-webfont.woff') format('woff'); }
+  src: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff2") format("woff2"), url("https://assets.ubuntu.com/sites/ubuntu/latest/u/fonts/ubuntumono-r-webfont.woff") format("woff"); }
 
 body {
   color: #333;
@@ -3842,26 +4417,32 @@ body {
 a:focus {
   outline: thin dotted; }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0; }
 
 a {
   color: #dd4814;
   text-decoration: none; }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   text-decoration: underline; }
 
-.caps-centered, .muted-heading {
+.caps-centered,
+.muted-heading {
   font-size: .875em;
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase; }
 
-small, .smaller {
+small,
+.smaller {
   font-size: 13px; }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -3880,32 +4461,51 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-p + h2, ul + h2, ol + h2, pre + h2 {
+p + h2,
+ul + h2,
+ol + h2,
+pre + h2 {
   margin-top: 0.5625em; }
 
 header nav a:link {
   font-weight: normal; }
 
-p + h3, ul + h3, ol + h3, pre + h3 {
+p + h3,
+ul + h3,
+ol + h3,
+pre + h3 {
   margin-top: .783em; }
 
-p + h4, ul + h4, ol + h4, pre + h4 {
+p + h4,
+ul + h4,
+ol + h4,
+pre + h4 {
   margin-top: 1.21875; }
 
-ol + h2, p + h2, pre + h2, ul + h2 {
+ol + h2,
+p + h2,
+pre + h2,
+ul + h2 {
   margin-top: .563em; }
 
-ol + h3, p + h3, pre + h3, ul + h3 {
+ol + h3,
+p + h3,
+pre + h3,
+ul + h3 {
   margin-top: .783em; }
 
-ol + h4, p + h4, pre + h4, ul + h4 {
+ol + h4,
+p + h4,
+pre + h4,
+ul + h4 {
   margin-top: 1.219em; }
 
 .intro {
   font-size: 1em;
   line-height: 1.4; }
 
-.row div p:last-child, .row ul p:last-child {
+.row div p:last-child,
+.row ul p:last-child {
   margin-bottom: 0; }
 
 .four-col p:last-child {
@@ -3915,7 +4515,12 @@ ol + h4, p + h4, pre + h4, ul + h4 {
   color: #888;
   font-size: .813em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   line-height: 1.3; }
 
@@ -3948,14 +4553,18 @@ h6 {
   letter-spacing: .1em;
   text-transform: uppercase; }
 
-p, li {
+p,
+li {
   font-size: 1em;
   line-height: 1.5;
   margin: 0;
   margin-bottom: .75em;
   padding: 0; }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: Ubuntu,Arial,'libra sans',sans-serif; }
 
 @media only screen and (min-width: 768px) {
@@ -3963,7 +4572,10 @@ button, input, select, textarea {
     font-size: 1.13333em; } }
 
 @media only screen and (min-width: 1030px) {
-  p, li, code, pre {
+  p,
+  li,
+  code,
+  pre {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: .75em; }
@@ -3973,7 +4585,8 @@ button, input, select, textarea {
 dfn {
   font-style: italic; }
 
-code, pre {
+code,
+pre {
   font-family: 'Ubuntu Mono', 'Consolas', 'Monaco', 'Lucida Console', 'Courier New', Courier, monospace; }
 
 table {
@@ -3983,7 +4596,8 @@ table {
   margin-bottom: 20px;
   margin: 0 0 2.5em;
   width: 100%; }
-  table th, table td {
+  table th,
+  table td {
     background: #f7f7f7;
     border: 1px dotted #888;
     padding: 15px 10px; }
@@ -4028,24 +4642,29 @@ footer.global {
     min-height: 40px;
     position: relative;
     width: 100%; }
-    footer.global .legal p, footer.global .legal ul {
+    footer.global .legal p,
+    footer.global .legal ul {
       padding-left: 0; }
   footer.global h2 {
     font-size: .75em;
     line-height: 1.4;
     margin-bottom: 0;
     padding-bottom: .5em; }
-  footer.global h2, footer.global h2 a:link, footer.global h2 a:visited {
+  footer.global h2,
+  footer.global h2 a:link,
+  footer.global h2 a:visited {
     color: #333;
     font-weight: normal; }
   footer.global ul {
     margin: 0; }
   footer.global li a:hover {
     color: #dd4814; }
-  footer.global li ul li a:link, footer.global li ul li a:visited {
+  footer.global li ul li a:link,
+  footer.global li ul li a:visited {
     color: #333;
     font-size: .75em; }
-  footer.global h2 a:hover, footer.global h2 a:active {
+  footer.global h2 a:hover,
+  footer.global h2 a:active {
     color: #dd4814; }
   footer.global p {
     color: #333;
@@ -4077,7 +4696,12 @@ figure {
     width: 100%;
     text-align: center; }
 
-object, iframe, embed, canvas, video, audio {
+object,
+iframe,
+embed,
+canvas,
+video,
+audio {
   display: block;
   max-width: 100%;
   margin: 0 auto 20px; }
@@ -4101,7 +4725,8 @@ audio:not([controls]) {
     left: 0;
     width: 100%;
     height: 100%; }
-  .video-container h3, .video-container .video-title {
+  .video-container h3,
+  .video-container .video-title {
     margin-top: 20px; }
 
 .inline-logos {
@@ -4121,8 +4746,7 @@ audio:not([controls]) {
     .inline-logos li.last-item {
       border: 0; }
   .inline-logos img {
-    -webkit-transition: all .3s ease-out;
-            transition: all .3s ease-out;
+    transition: all .3s ease-out;
     vertical-align: middle;
     max-width: 115px;
     max-height: 32px; }
@@ -4170,10 +4794,12 @@ audio:not([controls]) {
 @media only screen and (min-width: 768px) {
   .vertical-divider {
     position: relative; }
-    .vertical-divider > div, .vertical-divider > li {
+    .vertical-divider > div,
+    .vertical-divider > li {
       padding-left: 10px;
       padding-right: 10px; }
-      .vertical-divider > div:before, .vertical-divider > li:before {
+      .vertical-divider > div:before,
+      .vertical-divider > li:before {
         content: '';
         position: absolute;
         right: -10px;
@@ -4181,46 +4807,45 @@ audio:not([controls]) {
         height: 100%;
         width: 1px;
         border-left: 1px dotted #888; }
-    .vertical-divider > .last-col, .vertical-divider > div:last-of-type, .vertical-divider > li:last-of-type {
+    .vertical-divider > .last-col,
+    .vertical-divider > div:last-of-type,
+    .vertical-divider > li:last-of-type {
       padding-right: 0; }
-      .vertical-divider > .last-col:before, .vertical-divider > div:last-of-type:before, .vertical-divider > li:last-of-type:before {
+      .vertical-divider > .last-col:before,
+      .vertical-divider > div:last-of-type:before,
+      .vertical-divider > li:last-of-type:before {
         border-left: 0; }
-    .vertical-divider > div:first-of-type, .vertical-divider > li:first-of-type {
+    .vertical-divider > div:first-of-type,
+    .vertical-divider > li:first-of-type {
       padding-left: 0; } }
 
 @media only screen and (min-width: 768px) {
   .equal-height {
-    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
     width: 100%; }
-    .equal-height > div, .equal-height > li {
+    .equal-height > div,
+    .equal-height > li {
       box-sizing: border-box;
-      display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-flex: 1;
       -webkit-flex: auto;
           -ms-flex: auto;
               flex: auto;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column; } }
 
 body {
-  background: url('https://assets.ubuntu.comimg/backgrounds/image-background-paper.png') repeat-y center top #f7f7f7; }
+  background: url("https://assets.ubuntu.com/sites/ubuntu/latest/u/img/backgrounds/image-background-paper.png") repeat-y center top #f7f7f7; }
 
 .banner {
   margin-bottom: 0; }
@@ -4267,7 +4892,9 @@ body {
     .banner .nav-primary ul li:nth-child(2n+2) {
       border-right: 0; } }
   @media only screen and (min-width: 768px) {
-    .banner .nav-primary ul li a, .banner .nav-primary ul li a:link, .banner .nav-primary ul li a:visited {
+    .banner .nav-primary ul li a,
+    .banner .nav-primary ul li a:link,
+    .banner .nav-primary ul li a:visited {
       border-left: 0;
       color: #fff; } }
 
@@ -4280,7 +4907,8 @@ body {
   position: relative;
   width: 100%;
   border-bottom: 1px dotted #ddd; }
-  .instruction .instruction__bullet, .instruction .instruction__details {
+  .instruction .instruction__bullet,
+  .instruction .instruction__details {
     padding: 60px 40px;
     margin-bottom: 0; }
   .instruction .instruction__bullet {
@@ -4307,8 +4935,7 @@ body {
     background-color: #2c001e;
     border: 1px solid #2c001e;
     overflow: hidden;
-    -webkit-transition: all .2s;
-            transition: all .2s; }
+    transition: all .2s; }
     .instruction .command-line .command-line__input {
       border: 0;
       background: transparent;
@@ -4319,8 +4946,7 @@ body {
       color: #fff;
       width: 100%; }
     .instruction .command-line .command-line__copy-button {
-      -webkit-transition: background-color .2s;
-              transition: background-color .2s;
+      transition: background-color .2s;
       position: absolute;
       right: 0;
       top: 0;
@@ -4329,7 +4955,7 @@ body {
       height: 100%;
       display: block;
       text-indent: -9999px;
-      background-image: url('https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg');
+      background-image: url("https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #fff; }
@@ -4358,6 +4984,7 @@ body {
 
 a:link, a:visited {
   color: #dd4814; }
+
 a.button--primary:link, a.button--primary:visited {
   color: #fff; }
 
@@ -4369,7 +4996,8 @@ pre {
   border: 1px solid #f7f7f7;
   border-radius: 4px;
   padding: 1.333em 20px;
-  color: #333; }
+  color: #333;
+  overflow: hidden; }
   .box.box--shadow {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
     border-radius: 5px; }
@@ -4402,6 +5030,32 @@ pre {
   .footer .list-contacts li {
     margin-bottom: 5px; }
 
+@media only screen and (max-width: 768px) {
+  .one-col--mobile {
+    float: left;
+    margin: 0;
+    width: calc(100% / 6); }
+  .two-col--mobile {
+    float: left;
+    margin: 0;
+    width: calc(100% / 6 * 2); }
+  .three-col--mobile {
+    float: left;
+    margin: 0;
+    width: 50%; }
+  .four-col--mobile {
+    float: left;
+    margin: 0;
+    width: calc(100% / 6 * 4); }
+  .five-col--mobile {
+    float: left;
+    margin: 0;
+    width: calc(100% / 6 * 5); }
+  .six-col--mobile {
+    float: left;
+    margin: 0;
+    width: 100%; } }
+
 .banner {
   box-shadow: 0;
   background-color: #2c001e; }
@@ -4424,7 +5078,9 @@ pre {
       .banner .nav-primary ul li:last-child {
         border-color: rgba(255, 255, 255, 0.2); }
   @media only screen and (min-width: 768px) {
-    .banner .nav-primary ul li a:hover, .banner .nav-primary ul li a:link:hover, .banner .nav-primary ul li a:visited:hover {
+    .banner .nav-primary ul li a:hover,
+    .banner .nav-primary ul li a:link:hover,
+    .banner .nav-primary ul li a:visited:hover {
       background-color: #421d36; } }
   .banner .nav-primary .login {
     float: right; }
@@ -4440,7 +5096,8 @@ pre {
   @media only screen and (min-width: 768px) {
     .instruction {
       padding: 0 20px; } }
-  .instruction .instruction__bullet, .instruction .instruction__details {
+  .instruction .instruction__bullet,
+  .instruction .instruction__details {
     margin-bottom: 0; }
   .instruction .instruction__bullet {
     background-color: #fff;
@@ -4524,32 +5181,39 @@ pre {
     background-color: #2c001e;
     border: 1px solid #2c001e;
     overflow: hidden;
-    -webkit-transition: all .2s;
-            transition: all .2s; }
+    transition: all .2s; }
     .instruction .command-line .command-line__input {
       border: 0;
       background: transparent;
       font-size: 1em;
       font-family: Ubuntu Mono;
       font-weight: 300;
-      padding: .7em 1em;
+      padding: .7em 1em 53px;
       color: #fff;
       width: 100%; }
+      @media only screen and (min-width: 768px) {
+        .instruction .command-line .command-line__input {
+          padding-bottom: .7em; } }
     .instruction .command-line .command-line__copy-button {
-      -webkit-transition: background-color .2s;
-              transition: background-color .2s;
+      transition: background-color .2s;
       position: absolute;
       right: 0;
-      top: 0;
-      width: 50px;
       border: 0;
+      top: 42px;
+      width: 100%;
       height: 100%;
+      max-height: 42px;
       display: block;
       text-indent: -9999px;
-      background-image: url('https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg');
+      background-image: url("https://assets.ubuntu.com/v1/994e60f9-get-link-url_16.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-color: #fff; }
+      @media only screen and (min-width: 768px) {
+        .instruction .command-line .command-line__copy-button {
+          width: 50px;
+          right: 0;
+          top: 0; } }
 
 @media only screen and (min-width: 768px) {
   .list-ticks.list-ticks--large-text li {
@@ -4557,6 +5221,7 @@ pre {
     padding-top: 20px;
     padding-bottom: 20px;
     background-position: 0 27px; } }
+
 .list-ticks.list-ticks--no-border li {
   border: 0; }
 
@@ -4577,6 +5242,7 @@ img {
 .inline-logos li img {
   max-width: none;
   max-height: none; }
+
 .inline-logos .last-item {
   clear: right; }
 
@@ -4604,7 +5270,8 @@ img {
 
 .table--fullwidth {
   margin: 0; }
-  .table--fullwidth th, .table--fullwidth td {
+  .table--fullwidth th,
+  .table--fullwidth td {
     background-color: transparent;
     border: 0;
     padding: 25px 0; }
@@ -4637,6 +5304,7 @@ img {
     color: #dd4814; }
     .tab.js-is-active .tab__link:hover {
       text-decoration: none; }
+
 .tab .tab__link {
   color: #333; }
 
@@ -4672,7 +5340,10 @@ img {
 .color--grey {
   color: #aea79f; }
 
-h1 img, h2 img, h3 img, h4 img {
+h1 img,
+h2 img,
+h3 img,
+h4 img {
   display: inline;
   margin: 0; }
 
@@ -4681,11 +5352,13 @@ h1 img, h2 img, h3 img, h4 img {
   color: #fff; }
   .row.strip-canonical .pull-quote p {
     color: #fff; }
+
 .row.strip-canonical--grid {
-  background-image: url('https://assets.ubuntu.com/v1/62d597f6-background-grid.png'); }
+  background-image: url("https://assets.ubuntu.com/v1/62d597f6-background-grid.png"); }
+
 .row.try-landscape {
   background-color: #f8f8f6;
-  background-image: url('https://assets.ubuntu.com/v1/76a34db4-landing-cta.png');
+  background-image: url("https://assets.ubuntu.com/v1/76a34db4-landing-cta.png");
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 40px;
@@ -4694,6 +5367,7 @@ h1 img, h2 img, h3 img, h4 img {
     .row.try-landscape {
       padding-top: 60px;
       padding-bottom: 60px; } }
+
 @media only screen and (min-width: 768px) {
   .row.row--full-bleed {
     padding-top: 0;
@@ -4707,20 +5381,20 @@ h1 img, h2 img, h3 img, h4 img {
   overflow-y: hidden;
   margin-top: 0;
   background-color: #2c001e;
-  background-image: url('https://assets.ubuntu.com/v1/d9039397-backround.png');
-  background-position: center bottom;
+  background-image: url("https://assets.ubuntu.com/v1/d9039397-backround.png");
+  background-position: center bottom -80px;
   background-repeat: no-repeat;
   color: #fff;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: 60px 10px; }
   @media only screen and (min-width: 768px) {
     .row-hero {
-      padding: 125px 20px 75px;
-      min-height: 600px; } }
+      padding: 105px 20px 55px;
+      min-height: 500px; } }
   .row-hero .box {
     padding: 40px 30px; }
   .row-hero.row-hero--features {
-    background-image: url('https://assets.ubuntu.com/v1/a85b628b-hero-background.png');
+    background-image: url("https://assets.ubuntu.com/v1/a85b628b-hero-background.png");
     background-size: cover; }
 
 body {
