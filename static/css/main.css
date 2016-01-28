@@ -5268,6 +5268,9 @@ img {
 .border-bottom--dotted {
   border-bottom: 1px dotted rgba(0, 0, 0, 0.2); }
 
+.border-top--dotted {
+  border-top: 1px dotted rgba(0, 0, 0, 0.2); }
+
 .table--fullwidth {
   margin: 0; }
   .table--fullwidth th,
