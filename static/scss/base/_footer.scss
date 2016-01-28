@@ -21,6 +21,14 @@
       padding-bottom: 20px;
     }
 
+    .footer__second-nav {
+      display: none;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        display: block;
+      }
+    }
+
     .footer__link {
       color: $cool-grey;
     }
