@@ -12,16 +12,19 @@
     overflow-y: hidden;
     margin-top: 0;
     background-color: $dark-aubergine;
-    background-image: url('#{$asset-server-path}v1/d9039397-backround.png');
-    background-position: center bottom -80px;
+    background-image: url('#{$asset-server-path}v1/927832c8-backround.png');
+    background-position: right bottom -180px;
     background-repeat: no-repeat;
+    background-size: 1024px auto;
     color: $white;
     border-top: 1px solid rgba($white, .2);
-    padding: 60px 10px;
+    padding: 60px 10px 160px;
 
     @media only screen and (min-width: $navigation-threshold) {
-      padding: 105px 20px 55px;
+      padding: 80px 20px;
       min-height: 500px;
+      background-size: auto;
+      background-position: right bottom -40px;
     }
 
     .box {
