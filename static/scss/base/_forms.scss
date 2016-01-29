@@ -23,13 +23,12 @@
     clear: both;
     cursor: pointer;
     margin: 0;
-    background-image: url('../img/icons/accordion-open.svg');
+    background-image: url('#{$asset-server-path}v1/7bd1bd7b-arrow_down_9fa097.svg');
     background-repeat: no-repeat;
-    background-position: top 18px right 10px;
+    background-position: top 15px right 10px;
+    background-size: 12px;
     background-color: $white;
-    //scss-lint:disabled ImportantRule
     padding: 11px 13px;
-    //scss-lint:enable ImportantRule
     box-shadow: none;
     width: 100%;
 
