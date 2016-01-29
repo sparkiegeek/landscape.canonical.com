@@ -1,3 +1,5 @@
+// scss-lint:disable NestingDepth
+
 ////
 /// @author       Web Team at Canonical Ltd
 /// @link         https://github.com/ubuntudesign/landscape.canonical.com
@@ -9,16 +11,55 @@
 @mixin landscape-footer {
   .footer {
     background-color: $white;
-    padding-top: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
     border-top: 1px dotted rgba($black, .2);
+
+    @media only screen and (min-width: $navigation-threshold) {
+      padding-top: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
     .footer__title {
       color: $warm-grey;
       font-size: 14px;
       text-transform: uppercase;
-      padding-bottom: 20px;
+      padding: 10px;
+      margin-bottom: 0;
+      border-bottom: 1px solid rgba($cool-grey, .2);
+      cursor: pointer;
+      background-image: url('#{$asset-server-path}v1/7bd1bd7b-arrow_down_9fa097.svg');
+      background-position: 96% 50%;
+      background-repeat: no-repeat;
+      background-size: 13px 13px;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        padding: 0 0 20px;
+        border-bottom: 0;
+        cursor: default;
+        background: 0;
+      }
+
+      &.open {
+        background-image: url('#{$asset-server-path}v1/dd3d9dec-arrow_up_9fa097.svg');
+
+        @media only screen and (min-width: $navigation-threshold) {
+          background: 0;
+        }
+
+        + .footer__second-nav {
+          display: block;
+        }
+      }
+    }
+
+    .footer__second-nav {
+      display: none;
+      padding: 10px;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        display: block;
+        padding: 0;
+      }
     }
 
     .footer__link {
@@ -31,5 +72,15 @@
         margin-bottom: 5px;
       }
     }
+
+    .footer__legal {
+      padding: 10px;
+      margin: 0;
+
+      @media only screen and (min-width: $navigation-threshold) {
+        padding: 0;
+      }
+    }
   }
 }
+// scss-lint:enable NestingDepth
