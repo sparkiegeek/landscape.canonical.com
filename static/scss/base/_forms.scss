@@ -1,0 +1,73 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         https://github.com/ubuntudesign/landscape.canonical.com
+/// @since        1.0.0
+////
+
+/// Landscape Forms
+/// @group Landscape Forms
+@mixin landscape-forms {
+  input,
+  select,
+  textarea {
+
+    &.mktError {
+      border: 1px solid $error;
+    }
+  }
+
+  // Select dropdown styles
+  select {
+    @extend %input-elements;
+    display: block;
+    clear: both;
+    cursor: pointer;
+    margin: 0;
+    background-image: url('../img/icons/accordion-open.svg');
+    background-repeat: no-repeat;
+    background-position: top 18px right 10px;
+    background-color: $white;
+    //scss-lint:disabled ImportantRule
+    padding: 11px 13px;
+    //scss-lint:enable ImportantRule
+    box-shadow: none;
+    width: 100%;
+
+    // Removes firefox select styles & arrow
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: '';
+
+    &[multiple],
+    &[size] {
+      height: auto;
+      background-image: none;
+      padding-top: 10px;
+    }
+
+    &[disabled] {
+      color: $warm-grey;
+      background-image: none;
+      background-color: $transparent;
+    }
+
+    // Removes firefox dotted outline focusing
+    &:-moz-focusring {
+      color: transparent;
+      text-shadow: 0 0 0 $black;
+    }
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+
+  span.mktFormMsg {
+    margin-top: 10px;
+    display: block;
+
+    &.mktError {
+      color: $error;
+    }
+  }
+}
