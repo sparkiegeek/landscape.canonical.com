@@ -19,7 +19,6 @@ $asset-server-path: 'https://assets.ubuntu.com/';
 @import 'generic/helpers';
 @import 'generic/lists';
 @import 'generic/media';
-@import 'generic/tabs';
 @import 'objects/instructions';
 @import 'objects/rowhero';
 
@@ -35,7 +34,6 @@ $asset-server-path: 'https://assets.ubuntu.com/';
 @include landscape-media;
 @include landscape-vertical-alignment;
 @include landscape-table;
-@include landscape-tabs;
 @include landscape-typography;
 @include landscape-row;
 @include landscape-rowhero;
