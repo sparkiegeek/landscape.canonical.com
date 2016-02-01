@@ -15,6 +15,7 @@
       background-color: $transparent;
       border: 0;
       padding: 25px 0;
+      border-bottom: 1px dotted rgba(136, 136, 136, .5);
     }
 
     th {
@@ -24,29 +25,6 @@
       @media only screen and (min-width: $navigation-threshold) {
         font-size: 23px;
       }
-    }
-
-    tr {
-
-      &:after {
-        position: absolute;
-        display: block;
-        content: '';
-        width: calc(100vw + 50%);
-        height: 1px;
-        left: -50%;
-        border-bottom: 1px dotted rgba(136, 136, 136, .5);
-      }
-    }
-
-    &:after {
-      position: absolute;
-      display: block;
-      content: '';
-      width: calc(100vw + 50%);
-      height: 1px;
-      left: -50%;
-      border-bottom: 1px dotted rgba(136, 136, 136, .5);
     }
   }
 }

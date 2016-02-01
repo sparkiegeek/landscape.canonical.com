@@ -35,7 +35,7 @@
                     <li><a href="features.html">Features</a></li>
                     <li><a href="try-landscape.html">Try Landscape</a></li>
                     <li><a href="#">Docs</a></li>
-                    <li><a href="#">API Docs</a></li>
+                    <li><a href="#">API docs</a></li>
                 </ul>
                 <ul class="login">
                     <li><a href="#">Log in</a></li>
@@ -61,36 +61,36 @@
                         </div>
                         <div class="five-col last-col">
                             <div class="box box--shadow five-col equal-height">
-                                <div class="one-col no-margin-bottom align-center">
+                                <div class="one-col no-margin-bottom align-center two-col--mobile">
                                     <div class="align-vertically" style="width: 100%;">
                                         <img src="https://assets.ubuntu.com/v1/1b2fbfd3-desktop-small.svg" alt="" class="no-margin-bottom"/>
                                     </div>
                                 </div>
-                                <div class="three-col last-col no-margin-bottom">
+                                <div class="three-col last-col no-margin-bottom four-col--mobile">
                                     <h3 class="no-margin-bottom">Desktops from</h3>
-                                    <h1 class="no-margin-bottom">&dollar;105 <small>per year</small></h1>
+                                    <h1 class="no-margin-bottom">&dollar;130 <small>per year</small></h1>
                                 </div>
                             </div>
                             <div class="box box--shadow five-col equal-height">
-                                <div class="one-col no-margin-bottom align-center">
+                                <div class="one-col no-margin-bottom align-center two-col--mobile">
                                     <div class="align-vertically" style="width: 100%;">
                                         <img src="https://assets.ubuntu.com/v1/88786cf4-server-small.svg" alt="" class="no-margin-bottom"/>
                                     </div>
                                 </div>
-                                <div class="three-col last-col no-margin-bottom">
+                                <div class="three-col last-col no-margin-bottom four-col--mobile">
                                     <h3 class="no-margin-bottom">Servers from</h3>
-                                    <h1 class="no-margin-bottom">&dollar;320 <small>per year</small></h1>
+                                    <h1 class="no-margin-bottom">&dollar;105 <small>per year</small></h1>
                                 </div>
                             </div>
                             <div class="box box--shadow five-col equal-height">
-                                <div class="one-col no-margin-bottom align-center">
+                                <div class="one-col no-margin-bottom align-center two-col--mobile">
                                     <div class="align-vertically" style="width: 100%;">
                                         <img src="https://assets.ubuntu.com/v1/f1062825-cloud-small.svg" alt="" class="no-margin-bottom"/>
                                     </div>
                                 </div>
-                                <div class="three-col last-col no-margin-bottom">
-                                    <h3 class="no-margin-bottom">Cloud servers from</h3>
-                                    <h1 class="no-margin-bottom">&dollar;1,000 <small>per year</small></h1>
+                                <div class="three-col last-col no-margin-bottom four-col--mobile">
+                                    <h3 class="no-margin-bottom">VMs from</h3>
+                                    <h1 class="no-margin-bottom">&dollar;250 <small>per year</small></h1>
                                 </div>
                             </div>
                         </div>
@@ -99,16 +99,12 @@
                 <section class="row strip-white">
                     <div class="inner-wrapper">
                         <h2>Choose the best Landscape for you</h2>
-                    </div>
-                </section>
-                <section class="row strip-white no-padding">
-                    <div class="inner-wrapper">
-                        <div class="twelve-col no-margin-bottom">
+                        <div class="twelve-col">
                             <table class="table--fullwidth">
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th>On premise</th>
+                                        <th>On premises</th>
                                         <th>SaaS</th>
                                     </tr>
                                 </thead>
@@ -163,138 +159,144 @@
                                         <td><img src="https://assets.ubuntu.com/v1/90067499-green-tick.svg" alt="Green tick" class="no-margin-bottom" /></td>
                                         <td></td>
                                     </tr>
-                                    <tr>
-                                        <td class="font-medium align-left">Get started</td>
-                                        <td class="font-medium tab"><a class="tab__link" href="#dedicated">Set up your on premise Landscape server</a></td>
-                                        <td class="font-medium tab"><a class="tab__link" href="#hosted">Try Landscape SaaS</a></td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </section>
-                <div class="tab-target" id="dedicated">
-                    <section class="row clearfix instruction">
-                        <div class="inner-wrapper">
-                            <div class="five-col instruction__bullet">
-                                <div class="one-col">
-                                    <span class="instruction__step">1</span>
-                                </div>
-                                <div class="four-col last-col">
-                                    <h3 class="instruction__title">Add Landscape's repository</h3>
-                                </div>
-                            </div>
-                            <div class="seven-col last-col instruction__details">
-                                <p class="command-line">
-                                    <input class="command-line__input" value="sudo add-apt-repository ppa: landscape/15.11" readonly="readonly">
-                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                                </p>
-                            </div>
+                <section class="row border-top--dotted">
+                    <div class="inner-wrapper equal-height">
+                        <div class="four-col">
+                            <img src="https://assets.ubuntu.com/v1/1d3324be-30daytrial.svg" alt="30 Day trial" width="200">
                         </div>
-                    </section>
-                    <section class="row clearfix instruction">
-                        <div class="inner-wrapper">
-                            <div class="five-col instruction__bullet">
-                                <div class="one-col">
-                                    <span class="instruction__step">2</span>
-                                </div>
-                                <div class="four-col last-col">
-                                    <h3 class="instruction__title">Update package list</h3>
-                                </div>
-                            </div>
-                            <div class="seven-col last-col instruction__details">
-                                <p class="command-line">
-                                    <input class="command-line__input" value="sudo apt update" readonly="readonly">
-                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="row clearfix instruction no-border">
-                        <div class="inner-wrapper">
-                            <div class="five-col instruction__bullet">
-                                <div class="one-col">
-                                    <span class="instruction__step">3</span>
-                                </div>
-                                <div class="four-col last-col">
-                                    <h3 class="instruction__title">Install Landscape</h3>
-                                </div>
-                            </div>
-                            <div class="seven-col last-col instruction__details">
-                                <p class="command-line">
-                                    <input class="command-line__input" value="sudo apt install landscape-server-quickstart" readonly="readonly">
-                                    <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="tab-target" id="hosted">
-                    <section class="row">
-                        <div class="inner-wrapper">
-                            <div class="ten-col push-one align-center margin-bottom">
-                                <h3>Register and get up and running with your Landscape hosted account now</h3>
-                            </div>
-                            <div class="ten-col push-one align-center margin-bottom">
+                        <div class="eight-col last-col">
+                            <div class="align-vertically">
+                                <h2>Try Landscape SaaS</h2>
+                                <p>Register and get up and running with your Landscape SaaS account now</p>
                                 <p><a href="https://login.ubuntu.com/5N3gJxHDcJeuxrc2/+decide" class="button--primary">Try Landscape free for 30 days</a></p>
                             </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+                <section class="row strip-white border-top--dotted">
+                    <div class="inner-wrapper">
+                        <h2>Set up your on premises Landscape server</h2>
+                    </div>
+                </section>
+                <section class="row clearfix instruction">
+                    <div class="inner-wrapper">
+                        <div class="five-col instruction__bullet">
+                            <div class="one-col">
+                                <span class="instruction__step">1</span>
+                            </div>
+                            <div class="four-col last-col">
+                                <h3 class="instruction__title">Add Landscape's repository</h3>
+                            </div>
+                        </div>
+                        <div class="seven-col last-col instruction__details">
+                            <p class="command-line">
+                                <input class="command-line__input" value="sudo add-apt-repository ppa: landscape/15.11" readonly="readonly">
+                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="row clearfix instruction">
+                    <div class="inner-wrapper">
+                        <div class="five-col instruction__bullet">
+                            <div class="one-col">
+                                <span class="instruction__step">2</span>
+                            </div>
+                            <div class="four-col last-col">
+                                <h3 class="instruction__title">Update package list</h3>
+                            </div>
+                        </div>
+                        <div class="seven-col last-col instruction__details">
+                            <p class="command-line">
+                                <input class="command-line__input" value="sudo apt update" readonly="readonly">
+                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="row clearfix instruction no-border">
+                    <div class="inner-wrapper">
+                        <div class="five-col instruction__bullet">
+                            <div class="one-col">
+                                <span class="instruction__step">3</span>
+                            </div>
+                            <div class="four-col last-col">
+                                <h3 class="instruction__title">Install Landscape</h3>
+                            </div>
+                        </div>
+                        <div class="seven-col last-col instruction__details">
+                            <p class="command-line">
+                                <input class="command-line__input" value="sudo apt install landscape-server-quickstart" readonly="readonly">
+                                <button class="js-copy-to-clipboard command-line__copy-button">Copy to clipboard</button>
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
         <footer class="footer clearfix">
             <div class="inner-wrapper">
-                <div class="three-col">
+                <div class="three-col no-margin--bottom">
                     <h3 class="footer__title">Landscape</h3>
-                    <ul class="no-bullets">
-                        <li>
-                            <a href="index.html" class="footer__link ">Home</a>
-                        </li>
-                        <li>
-                            <a href="features.html" class="footer__link">Features</a>
-                        </li>
-                        <li>
-                            <a href="try-landscape.html" class="footer__link ">Try Landscape</a>
-                        </li>
-                        <li>
-                            <a href="/static/doc/user-guide" class="footer__link">Docs</a>
-                        </li>
-                        <li>
-                            <a href="/static/doc/api" class="footer__link">API docs</a>
-                        </li>
-                        <li>
-                            <a href="https://help.landscape.canonical.com/" class="footer__link">Help</a>
-                        </li>
-                    </ul>
+                    <div class="footer__second-nav">
+                        <ul class="no-bullets">
+                            <li>
+                                <a href="index.html" class="footer__link ">Home</a>
+                            </li>
+                            <li>
+                                <a href="features.html" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="try-landscape.html" class="footer__link ">Try Landscape</a>
+                            </li>
+                            <li>
+                                <a href="/static/doc/user-guide" class="footer__link">Docs</a>
+                            </li>
+                            <li>
+                                <a href="/static/doc/api" class="footer__link">API docs</a>
+                            </li>
+                            <li>
+                                <a href="https://help.landscape.canonical.com/" class="footer__link">Help</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="five-col">
+                <div class="five-col no-margin--bottom">
                     <h3 class="footer__title">Need help?</h3>
-                    <p>Ubuntu Advantage is the professional support package from the experts at Canonical, helping organisations around the world to manage their Ubuntu deployments.</p>
-                    <p><a href="#" class="button--primary">Contact us</a></p>
-                    <p><a href="#" class="external">Learn more about Ubuntu advantage</a></p>
+                    <div class="footer__second-nav">
+                        <p>Ubuntu Advantage is the professional support package from the experts at Canonical, helping organisations around the world to manage their Ubuntu deployments.</p>
+                        <p><a href="/contact-us.html" class="button--primary">Contact us</a></p>
+                        <p><a href="#" class="external">Learn more about Ubuntu advantage</a></p>
+                    </div>
                 </div>
-                <div class="four-col last-col">
+                <div class="four-col last-col no-margin--bottom">
                     <h3 class="footer__title">Already a customer?</h3>
-                    <p><a href="#">Log in&nbsp;&rsaquo;</a></p>
-                    <p>If you have problems accessing your account, please contact us at:</p>
-                    <ul class="no-bullets list-contacts">
-                        <li>+1 514 940 8895 (International)</li>
-                        <li>Toll free: +1 866 9 UBUNTU (866 982 8688) in the US and Canada</li>
-                        <li>0808 101 4390 in the United Kingdom</li>
-                        <li>0800 905 410 in France</li>
-                        <li>0800 181 3298 in Germany</li>
-                        <li>0080 112 6793 in Taïwan</li>
-                    </ul>
-                    <p class="color--grey"><small>Support hours are as per your service level agreement.</small></p>
+                    <div class="footer__second-nav">
+                        <p><a href="#">Log in&nbsp;&rsaquo;</a></p>
+                        <p>If you have problems accessing your account, please contact us at:</p>
+                        <ul class="no-bullets list-contacts">
+                            <li>+1 514 940 8895 (International)</li>
+                            <li>Toll free: +1 866 9 UBUNTU (866 982 8688) in the US and Canada</li>
+                            <li>0808 101 4390 in the United Kingdom</li>
+                            <li>0800 905 410 in France</li>
+                            <li>0800 181 3298 in Germany</li>
+                            <li>0080 112 6793 in Taïwan</li>
+                        </ul>
+                        <p class="color--grey"><small>Support hours are as per your service level agreement.</small></p>
+                    </div>
                 </div>
-                <div class="twelve-col">
-                    <p><small>&copy; 2016 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd <a href="http://www.ubuntu.com/legal?_ga=1.134488433.1025818516.1449589773" class="external">Legal</a> information</small></p>
+                <div class="footer__legal twelve-col">
+                    <p><small>&copy; 2016 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd <a href="http://www.ubuntu.com/legal?=1.134488433.1025818516.1449589773" class="external">Legal information</a></small></p>
                 </div>
             </div>
         </footer>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/jquery.command-line.js"></script>
+        <script type="text/javascript" src="static/js/jquery.mobile-footer-nav.js"></script>
     </body>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="static/js/jquery.tabs.js"></script>
-    <script type="text/javascript" src="static/js/jquery.command-line.js"></script>
 </html>

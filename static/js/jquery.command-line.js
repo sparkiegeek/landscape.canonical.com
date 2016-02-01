@@ -17,12 +17,12 @@ $(document).ready(function(){
 
           try {
               var successful = document.execCommand('copy');
-              _gaq.push(['_trackEvent', 'Copy to clipboard', commandInput.get('value'), document.URL]);
-              _this.addClass('is-copied');
+              self.addClass('is-copied');
               setTimeout(function(e) {
-                  _this.removeClass('is-copied');
+                  self.removeClass('is-copied');
               }, 300);
-          } catch(err) {
+          }
+          catch(err) {
               console.log('Unable to copy');
           }
         });

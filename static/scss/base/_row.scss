@@ -11,6 +11,14 @@
 @mixin landscape-row {
   .row {
 
+    &.strip-dark {
+
+      a {
+        color: $white;
+        text-decoration: underline;
+      }
+    }
+    
     &.strip-canonical {
       background: $dark-aubergine;
       color: $white;
